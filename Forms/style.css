@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, main{
+    height: 100vh;
+    width: 100vw;
+}
+.labels, .inputs{
+    display: flex;
+    flex-direction: column;
+}
+.formulario-academia, .outros{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.outros{
+    flex-direction: column;
+}
+main{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+body{
+    min-height: 100vh;
+}

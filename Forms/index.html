@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Formulário</h1>
+      <form action="" class="formulario">
+        <div class="formulario-academia">
+          <div class="labels">
+            <label for="name"> Nome: </label>
+            <label for="age"> Idade: </label>
+            <label for="height"> Altura: </label>
+            <label for="weight"> peso: </label>
+          </div>
+          <div class="inputs">
+            <input type="text" id="name" name="name"/>
+            <input type="number" id="age" name="age"/>
+            <input type="number" id="height" name="height"/>
+            <input type="number" id="weight" name="weight"/>
+          </div>
+        </div>
+        <div class="outros">
+          <label for="type"> Tipo de Exercício </label>
+          <select name="type" id="">
+            <option value="cardio">Cardio</option>
+            <option value="cardio">Cardio2</option>
+            <option value="cardio">Cardio3</option>
+            <option value="cardio">Não Cardio</option>
+          </select>
+          <br />
+          <div class="select">
+            <label for="obj">Objetivo: </label>
+            <input type="radio" name="obj" id="emagre" />
+            <label for="emagre">Emagrecimento</label>
+            <input type="radio" name="obj" id="toni" />
+            <label for="toni">Tonificação</label>
+            <input type="radio" name="obj" id="ganho" />
+            <label for="ganho">Ganho de massa muscular</label>
+          </div>
+
+          <br />
+          <input type="submit" name="Enviar" id="" />
+        </div>
+      </form>
+      <a href="form2.html">Formulário 2</a>
+      <style>
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(82, 128, 168);
+            padding: 7px;
+            margin-top: 20px;
+            border-radius: 12px;
+        }
+      </style>
+    </main>
+  </body>
+</html>

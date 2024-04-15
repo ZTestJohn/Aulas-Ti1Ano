@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 5px;
+}
+main {
+  padding: 80px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.tabelas-format,
+.nomes {
+  width: 400px;
+}
