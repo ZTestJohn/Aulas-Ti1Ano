@@ -32,6 +32,7 @@ body {
   text-decoration: underline rgb(137, 43, 226);
 }
 .sect h2 {
+  text-align: justify;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
 }
@@ -66,4 +67,7 @@ body {
 }
 .text-sect a:hover{
     transform: scale(1.1);
+}
+#ma {
+  font-size: 6em;
 }
