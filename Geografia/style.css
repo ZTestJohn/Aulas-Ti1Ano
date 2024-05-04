@@ -18,8 +18,8 @@ body {
   height: 100vh;
   width: 100vw;
 }
-.sect h1 {    
-  transition: all 0.7s ease-in-out;  
+.sect h1 {
+  transition: all 0.7s ease-in-out;
   font-size: 8em;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -65,8 +65,8 @@ body {
   border-radius: 2px;
   font-size: 1.2em;
 }
-.text-sect a:hover{
-    transform: scale(1.1);
+.text-sect a:hover {
+  transform: scale(1.1);
 }
 #ma {
   font-size: 6em;
