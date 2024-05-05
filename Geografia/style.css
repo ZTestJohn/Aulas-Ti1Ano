@@ -103,3 +103,7 @@ body {
   bottom: 0;
   left: 50%;
 }
+
+.amazonia, .caatinga, .cerrado, .mata-atl, .pampa, .pantanal{
+  visibility: hidden;
+}
