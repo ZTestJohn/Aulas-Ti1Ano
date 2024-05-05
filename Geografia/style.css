@@ -39,6 +39,7 @@ body {
   text-decoration: underline rgb(137, 43, 226);
 }
 .sect h2 {
+  max-width: 50vw;
   text-align: justify;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
