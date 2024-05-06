@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+  border-radius: 12px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(19, 20, 20);
+  scroll-behavior: smooth;
+}
+.sect {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.sect h1 {
+  transition: all 0.7s ease-in-out;
+  font-size: 8em;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 90%;
+  overflow-y: hidden;
+  text-decoration: underline rgba(137, 43, 226, 0);
+}
+.sect h1:hover {
+  text-decoration: underline rgb(137, 43, 226);
+}
+.sect h2 {
+  max-width: 50vw;
+  text-align: justify;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+.back-video {
+  z-index: -100;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.text-sect {
+  overflow-y: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 60vw;
+  padding: 10vh 5vw 10vh 5vw;
+  background-color: rgba(19, 20, 20, 0.7);
+  box-shadow: 50px 0 30px rgba(19, 20, 20, 0.7);
+}
+.text-sect {
+  max-width: max-content;
+}
+.text-sect a {
+  transition: all 0.5s ease-out;
+  color: inherit;
+  font-family: "Josefin Sans";
+  padding: 6px 8px;
+  border: 2px solid white;
+  width: max-content;
+  border-radius: 2px;
+  font-size: 1.2em;
+}
+.text-sect a:hover {
+  transform: scale(1.1);
+}
+#ma {
+  font-size: 6em;
+}
+@keyframes svg_animation {
+  0%{
+    transition: all ease-in;
+    transform: translateY(0);
+  }
+  50%{
+    transition: all ease;
+    transform: translateY(20px);
+  }
+  100%{
+    transition: all ease-out;
+    transform: translateY(0);    
+  }
+}
+#svg-conheça {
+  animation: 3s infinite svg_animation;
+  width: 50px;
+  height: 80px;
+  color: blueviolet;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.amazonia, .caatinga, .cerrado, .mata-atl, .pampa, .pantanal{
+  visibility: hidden;
+}
