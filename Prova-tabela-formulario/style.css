@@ -20,11 +20,11 @@ header{
     height: 60px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.412);
 }
-/* table, th, td{
+table, tr, td, th{
     border: 1px solid rgb(30, 28, 28);
     border-collapse: collapse;
     padding: 5px;
-} */
+}
 .imagem{
     width: 130px;
 }
@@ -44,28 +44,4 @@ table{
 }
 h1{
     text-align: center;
-}
-/* Teste */
-th{
-    visibility: hidden;
-}
-table, tr, th, tr{
-    border: none;
-}
-tbody{
-    display: flex;
-    flex-wrap: wrap;
-}
-tr{
-    padding: 12px;
-    border-radius: 12px;
-    margin: 5px;
-    background-color: aliceblue;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
-}
-th{
-    font-weight: bold;
 }
