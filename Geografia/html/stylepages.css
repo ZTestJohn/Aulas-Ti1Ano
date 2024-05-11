@@ -85,7 +85,7 @@ a:hover::before {
   padding: 12px;
   width: calc(70vw - 24px);
   color: white;
-  background: linear-gradient(rgb(152, 94, 206), rgb(238, 138, 45));
+  background: linear-gradient(0.25turn, rgb(124, 160, 226),rgb(152, 94, 206));
   border-radius: 20px;
 }
 .blocos {
