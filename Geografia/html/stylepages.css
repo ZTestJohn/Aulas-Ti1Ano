@@ -19,8 +19,10 @@ p {
   margin-top: 10px;
   color: white;
   font-family: "Josefin Sans";
+  font-size: 1.6vw;
 }
 h2 {
+  font-size: 1.9vw;
   letter-spacing: 1px;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.342);
 }
@@ -70,25 +72,26 @@ a:hover::before {
 .foto {
   width: calc(23vw - 5px);
   border-radius: 12px;
+  justify-content: space-between;
 }
 .fotos,
-.caixas {
-  gap: 2vh;
+.caixas,
+.blocos {
+  gap: 20px;
   display: flex;
   flex-direction: column;
-}
-.fotos {
   justify-content: space-between;
 }
 .bloco {
+  height: 28%;
   text-align: justify;
-  padding: 12px;
+  padding: 20px;
   width: calc(70vw - 24px);
   color: white;
   background: linear-gradient(0.25turn, rgb(124, 160, 226),rgb(152, 94, 206));
   border-radius: 20px;
 }
-.blocos {
-  display: flex;
-  justify-content: space-between;
+.blocos{
+  flex-direction: row;
+  gap: 0;
 }

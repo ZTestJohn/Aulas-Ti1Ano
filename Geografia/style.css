@@ -19,15 +19,18 @@ body {
   scroll-behavior: smooth;
 }
 .sect {
+  position: relative;
   align-items: center;
   color: white;
   display: flex;
   height: 100vh;
   width: 100vw;
+  overflow-y: hidden;
+  margin-bottom: 100px;
 }
 .sect h1 {
   transition: all 0.7s ease-in-out;
-  font-size: 8em;
+  font-size: 10vw;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -45,21 +48,20 @@ body {
   font-weight: 400;
 }
 .back-video {
+  top: 0;
   z-index: -100;
   position: absolute;
   width: 100vw;
-  height: 100vh;
 }
 .text-sect {
   overflow-y: hidden;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   max-width: 60vw;
   padding: 10vh 5vw 10vh 5vw;
   background-color: rgba(19, 20, 20, 0.7);
-  box-shadow: 50px 0 30px rgba(19, 20, 20, 0.7);
 }
 .text-sect {
   max-width: max-content;
@@ -77,9 +79,7 @@ body {
 .text-sect a:hover {
   transform: scale(1.1);
 }
-#ma {
-  font-size: 6em;
-}
+
 @keyframes svg_animation {
   0%{
     transition: all ease-in;
@@ -106,4 +106,15 @@ body {
 
 .amazonia, .caatinga, .cerrado, .mata-atl, .pampa, .pantanal{
   visibility: hidden;
+}
+.sombra{
+  height: 100vh;
+  width: 10vw;
+  background:linear-gradient(to right, rgba(19, 20, 20, 0.7), transparent) ;
+}
+@media screen {
+  .back-video{
+    height: 100vh;
+    width: unset;
+  }
 }
