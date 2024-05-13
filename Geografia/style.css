@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   width: 10px;
@@ -112,9 +113,4 @@ body {
   width: 10vw;
   background:linear-gradient(to right, rgba(19, 20, 20, 0.7), transparent) ;
 }
-@media screen {
-  .back-video{
-    height: 100vh;
-    width: unset;
-  }
-}
+
