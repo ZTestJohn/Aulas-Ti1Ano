@@ -37,7 +37,7 @@ body {
   letter-spacing: 0.5px;
   line-height: 90%;
   overflow-y: hidden;
-  text-decoration: underline rgba(137, 43, 226, 0);
+  text-decoration: underline transparent;
 }
 .sect h1:hover {
   text-decoration: underline rgb(137, 43, 226);
