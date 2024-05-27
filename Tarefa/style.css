@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    gap: 7px;
+    width: 100vw;
+    height: 300vh;
+}
+h2{
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    font: verdana normal;
+}
+main, .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foto{
+    position: absolute;
+    top: -100px;
+    width: 300px;
+}
