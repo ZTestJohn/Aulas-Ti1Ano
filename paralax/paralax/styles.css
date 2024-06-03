@@ -1,34 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    scroll-behavior: smooth;
+/* Estilos básicos */
+body, html {
+    margin: 0; /* Remove a margem padrão dos elementos body e html */
+    padding: 0; /* Remove o padding padrão dos elementos body e html */
+    font-family: Arial, sans-serif; /* Define a família de fontes para Arial ou uma fonte sans-serif */
+    scroll-behavior: smooth; /* Habilita a rolagem suave ao navegar para âncoras na página */
 }
-a{
-    text-decoration: none;
-    transition: all 1s;
+
+/* Navegação */
+header {
+    position: fixed; /* Fixa o header na parte superior da janela, mesmo ao rolar a página */
+    width: 100%; /* Define a largura do header para ocupar 100% da largura da janela */
+    top: 0; /* Posiciona o header no topo da página */
+    background-color: rgba(15, 37, 231, 0.788); /* Define a cor de fundo do header com uma opacidade de 78.8% */
+    z-index: 1000; /* Define a ordem de empilhamento para garantir que o header fique sobre outros elementos */
 }
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: rgb(15, 37, 231, 0.788);
-    z-index: 1000;
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 10px; /* Adiciona padding ao redor da lista */
+    display: flex; /* Usa flexbox para o layout dos itens da lista */
+    justify-content: center; /* Centraliza os itens da lista horizontalmente */
 }
-nav ul{
-    font-size: 18px;
-    list-style-type: none;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+
+nav ul li {
+    margin: 0 15px; /* Adiciona uma margem horizontal entre os itens da lista */
 }
-nav ul li{
-    margin: 0 15px;
+
+nav ul li a {
+    color: white; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove a decoração de texto (sublinhado) dos links */
+    font-size: 18px; /* Define o tamanho da fonte dos links */
 }
-nav ul li a{
-    color: white;
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado aos links quando o mouse passa sobre eles */
 }
-nav ul li a:hover{
-    text-decoration: overline white;
+
+/* Parallax container */
+.parallax {
+    height: 100vh; /* Define a altura da seção parallax como 100% da altura da janela */
+    background-attachment: fixed; /* Fixa a imagem de fundo para criar o efeito parallax */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-size: cover; /* Cobre toda a área da seção com a imagem de fundo */
+    display: flex; /* Usa flexbox para o layout do conteúdo dentro da seção parallax */
+    align-items: center; /* Alinha verticalmente o conteúdo no centro */
+    justify-content: center; /* Alinha horizontalmente o conteúdo no centro */
+    color: white; /* Define a cor do texto como branca */
+    font-size: 2em; /* Define o tamanho da fonte do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
+}
+
+.parallax1 {
+    background-image: url('imagens/ocean1.jpg'); /* Define a imagem de fundo específica para a primeira seção parallax */
+}
+
+.parallax2 {
+    background-image: url('imagens/ocean2.PNG'); /* Define a imagem de fundo específica para a segunda seção parallax */
+}
+
+.parallax3 {
+    background-image: url('imagens/ocean3.jpg'); /* Define a imagem de fundo específica para a terceira seção parallax */
+}
+
+.parallax4 {
+    background-image: url('imagens/ocean4.jpg'); /* Define a imagem de fundo específica para a quarta seção parallax */
+}
+
+.caption {
+    background: rgba(8, 127, 182, 0.479); /* Define a cor de fundo com uma opacidade de 47.9% */
+    padding: 10px 20px; /* Adiciona padding ao redor do conteúdo */
+    border-radius: 5px; /* Arredonda os cantos do elemento */
+}
+
+/* Conteúdo */
+.content {
+    min-height: 400px; /* Define a altura mínima do conteúdo como 400px */
+    background-color: white; /* Define a cor de fundo do conteúdo como branca */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px 20px; /* Adiciona padding ao redor do conteúdo */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.content h1 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona uma margem inferior ao título */
+}
+
+.content p {
+    font-size: 1.2em; /* Define o tamanho da fonte do parágrafo */
+    line-height: 1.6em; /* Define a altura da linha do parágrafo para melhorar a legibilidade */
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(8, 127, 182, 0.479); /* Define a cor de fundo do rodapé com uma opacidade de 47.9% */
+    color: white; /* Define a cor do texto do rodapé como branca */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 20px 0; /* Adiciona padding ao redor do conteúdo do rodapé */
 }
