@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family:"Rubik", sans-serif;
+    padding: 5px;
+    background-color: rgb(209, 112, 32);
+    border-radius: 8px;
+}
+ul{
+    gap: 15px;
+    list-style-type: none;
+}
+.sessoes,header, ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    z-index: 1000px;
+    background-color: black;
+}
+.sessoes {
+    height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.section1 {
+    background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg')
+}
+
+.section2 {
+    background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
+}
+
+.section3 {
+    background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
+}
+
+.section4 {
+    background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
+}
+
+.explicacao{
+    min-height: 350px;
+    background-color: rgba(0,0,0,255);
+    padding: 30px;
+}
+.explicacao h1{
+    text-align: center;
+}
+.explicacao p{
+    text-align: justify;
+}
+.titulo{
+    text-align: center;
+    font: 4.5em  "Rubik", sans-serif;
+    font-weight: bold;
+    color: white;
+    mix-blend-mode: difference;
+}
