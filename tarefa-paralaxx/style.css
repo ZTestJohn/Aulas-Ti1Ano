@@ -12,13 +12,18 @@ li a{
     border-radius: 8px;
 }
 ul{
-    gap: 15px;
     list-style-type: none;
 }
-.sessoes,header, ul{
+.sessoes,header, ul, nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+nav, ul{
+    width: 100%;
+}
+ul{
+    justify-content: space-around;
 }
 header{
     width: 100vw;
@@ -36,19 +41,25 @@ header{
     background-size: cover; 
 }
 
-.section1 {
+#section1 {
     background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg')
 }
 
-.section2 {
+#section2 {
     background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
 }
 
-.section3 {
+#section3 {
     background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
 }
 
-.section4 {
+#section4 {
+    background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
+}
+#section5 {
+    background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
+}
+#section6 {
     background-image: url('https://hub.asimov.academy/wp-content/uploads/2022/03/vscode-logo-1.jpeg');
 }
 
