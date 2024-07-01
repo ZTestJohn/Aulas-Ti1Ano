@@ -5,7 +5,7 @@ let ApiID = jsonId.id
 
 async function PesquisarCidade(){
     try{
-        let resposta = await fetch()
+        let resposta = await fetch(http://api.openweathermap.org/data/2.5/weather?q=Sao Paulo,BR&appid=YOUR_API_KEY)
     }
     catch(error){
         console.error(error)
