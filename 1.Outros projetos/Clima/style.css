@@ -1,15 +1,122 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-main{
-    width: 100vw;
-    height: 100vh;
-    /* Image by starline on Freepik */
-    background: url('img/bg.jpg') center no-repeat;
-    background-size: cover;
+
+input, button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  /* Image by starline on Freepik */
+  background: url("img/bg.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .caixa-princ {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    width: 70vw;
+    max-height: 90vw;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.199);
+
+}
+
+main .caixa-princ .barra-pesquisa {
+    width: 70%;
+    background-color: rgb(207, 212, 218);
+    display: flex;
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+
+main .caixa-princ .barra-pesquisa #pesquisa {
+    width: 100%;
+}
+main .caixa-princ .barra-pesquisa button {
+    transition: 0.5s ease;
+    padding: 5px;
+    border-radius: 100%;
+}
+main .caixa-princ .barra-pesquisa button:hover {
+    background-color: rgb(172, 179, 189);
+
+}
+
+main .caixa-princ .resultado {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+main .caixa-princ .resultado #imagem-result {
+    width: 80%;
+}
+main .caixa-princ .resultado .info {
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+main .caixa-princ .resultado #min_temp.caixa {
+}
+main .caixa-princ .resultado #min_temp.caixa .icons_result {
+}
+main .caixa-princ .resultado #min_temp.caixa p {
+}
+main .caixa-princ .resultado #min_temp.caixa path {
+}
+main .caixa-princ .resultado #temp.caixa {
+}
+main .caixa-princ .resultado #temp.caixa .icons_result {
+}
+main .caixa-princ .resultado #temp.caixa p {
+}
+main .caixa-princ .resultado #temp.caixa path {
+}
+main .caixa-princ .resultado #max_temp.caixa {
+}
+main .caixa-princ .resultado #max_temp.caixa p {
+}
+main .caixa-princ .resultado #max_temp.caixa .icons_result {
+}
+main .caixa-princ .resultado #max_temp.caixa path {
+}
+main .caixa-princ .resultado br {
+}
+main .caixa-princ .resultado #press.caixa {
+}
+main .caixa-princ .resultado #press.caixa p {
+}
+main .caixa-princ .resultado #press.caixa .icons_result {
+}
+main .caixa-princ .resultado #press.caixa path {
+}
+main .caixa-princ .resultado #humid.caixa {
+}
+main .caixa-princ .resultado #humid.caixa p {
+}
+main .caixa-princ .resultado #humid.caixa .icons_result {
+}
+main .caixa-princ .resultado #humid.caixa path {
+}
+main .caixa-princ .resultado #vento_vl.caixa {
+}
+main .caixa-princ .resultado #vento_vl.caixa p {
+}
+main .caixa-princ .resultado #vento_vl.caixa .icons_result {
+}
+main .caixa-princ .resultado #vento_vl.caixa path {
 }
