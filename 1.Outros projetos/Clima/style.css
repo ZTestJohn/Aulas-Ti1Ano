@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 input, button{
@@ -9,13 +11,17 @@ input, button{
     border: none;
     background-color: transparent;
 }
+body{
+    background: url("img/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+body, main{
+    width: 100vw;
+    min-height: 100vh;
+}
 
 main {
-  width: 100vw;
-  height: 100vh;
-  /* Image by starline on Freepik */
-  background: url("img/bg.jpg") center no-repeat;
-  background-size: cover;
+    margin: 20px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,11 +32,13 @@ main .caixa-princ {
     flex-direction: column;
     align-items: center;
     background-color: aliceblue;
+    gap: 15px;
     width: 70vw;
-    max-height: 90vw;
+    height: max-content;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.199);
+    transition-property: height 0.5s ease;
 
 }
 
@@ -52,7 +60,6 @@ main .caixa-princ .barra-pesquisa button {
 }
 main .caixa-princ .barra-pesquisa button:hover {
     background-color: rgb(172, 179, 189);
-
 }
 
 main .caixa-princ .resultado {
@@ -62,61 +69,48 @@ main .caixa-princ .resultado {
     align-items: center;
 }
 main .caixa-princ .resultado #imagem-result {
-    width: 80%;
+    width: 50%;
 }
-main .caixa-princ .resultado .info {
-    display: flex;
-}
-.hidden{
+.escondido{
     display: none;
+    opacity: 0;
 }
-main .caixa-princ .resultado #min_temp.caixa {
+.visivel{
+    display: flex;
+    opacity: 1;
 }
-main .caixa-princ .resultado #min_temp.caixa .icons_result {
+#info{
+    transition: all 0.5s ease;
+    max-width: 70vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
 }
-main .caixa-princ .resultado #min_temp.caixa p {
+
+.caixa{
+    background-color: aliceblue;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
 }
-main .caixa-princ .resultado #min_temp.caixa path {
+.caixa:hover{
+    cursor: pointer;
 }
-main .caixa-princ .resultado #temp.caixa {
+.caixa:hover::before{
+    content: attr(data-oquee);
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(40px) translateX(15%);
 }
-main .caixa-princ .resultado #temp.caixa .icons_result {
-}
-main .caixa-princ .resultado #temp.caixa p {
-}
-main .caixa-princ .resultado #temp.caixa path {
-}
-main .caixa-princ .resultado #max_temp.caixa {
-}
-main .caixa-princ .resultado #max_temp.caixa p {
-}
-main .caixa-princ .resultado #max_temp.caixa .icons_result {
-}
-main .caixa-princ .resultado #max_temp.caixa path {
-}
-main .caixa-princ .resultado br {
-}
-main .caixa-princ .resultado #press.caixa {
-}
-main .caixa-princ .resultado #press.caixa p {
-}
-main .caixa-princ .resultado #press.caixa .icons_result {
-}
-main .caixa-princ .resultado #press.caixa path {
-}
-main .caixa-princ .resultado #humid.caixa {
-}
-main .caixa-princ .resultado #humid.caixa p {
-}
-main .caixa-princ .resultado #humid.caixa .icons_result {
-}
-main .caixa-princ .resultado #humid.caixa path {
-}
-main .caixa-princ .resultado #vento_vl.caixa {
-}
-main .caixa-princ .resultado #vento_vl.caixa p {
-}
-main .caixa-princ .resultado #vento_vl.caixa .icons_result {
-}
-main .caixa-princ .resultado #vento_vl.caixa path {
+#ceu::first-letter{
+    text-transform: uppercase;
 }

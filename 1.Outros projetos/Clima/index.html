@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veja o tempo de qualquer cidade</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -19,32 +23,30 @@
                 <h1 id="nome"></h1>
                 <img src="https://tabler.io/_next/image?url=%2Fillustrations%2Fdark%2Fmap-destination.png&w=800&q=75" alt="" id="imagem-result"> 
                 <p id="ceu"></p> 
-                <div class="info">
-                    <div class="caixa">
-                        <p id="min_temp"></p>
+                <div class="escondido" id="info">
+                    <div class="caixa" data-oquee="Temperatura mínima">
                         <svg class="icons_result"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-temperature-minus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5" /><path d="M8 9l4 0" /><path d="M16 9l6 0" /></svg>
+                        <p id="min_temp"></p>
                     </div>
-                    <div class="caixa">
-                        <p id="temp"></p>
+                    <div class="caixa" data-oquee="Temperatura">
                         <svg class="icons_result" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-temperature"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5" /><path d="M10 9l4 0" /></svg>
+                        <p id="temp"></p>
                     </div>
-                    <div class="caixa">
-                        <p id="max_temp"></p>
+                    <div class="caixa" data-oquee="Temperatura máxima">
                         <svg class="icons_result" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-temperature-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5" /><path d="M8 9l4 0" /><path d="M16 9l6 0" /><path d="M19 6l0 6" /></svg>
+                        <p id="max_temp"></p>
                     </div>
-                    <br>
-                    <div class="caixa">
-                        <p id="press"></p>
+                    <div class="caixa" data-oquee="Humidade no ar">
                         <svg class="icons_result"xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-ruler-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 3l4 4l-14 14l-4 -4z" /><path d="M16 7l-1.5 -1.5" /><path d="M13 10l-1.5 -1.5" /><path d="M10 13l-1.5 -1.5" /><path d="M7 16l-1.5 -1.5" /></svg>
-                        
-                    </div>
-                    <div class="caixa" id="humid">
                         <p id="humid"></p>
-                        <svg class="icons_result" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-droplet"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0c2.602 -2.105 3.262 -5.708 1.566 -8.546l-4.89 -7.26c-.42 -.625 -1.287 -.803 -1.936 -.397a1.376 1.376 0 0 0 -.41 .397l-4.893 7.26c-1.695 2.838 -1.035 6.441 1.567 8.546z" /></svg>
                     </div>
-                    <div class="caixa">
-                        <p id="vento_vl"></p>
+                    <div class="caixa" data-oquee="Sensação térmica">
+                        <svg class="icons_result" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-users"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>
+                        <p id="feel"></p>
+                    </div>
+                    <div class="caixa" data-oquee="Velocidade do vento">
                         <svg class="icons_result" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-wind"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 8h8.5a2.5 2.5 0 1 0 -2.34 -3.24" /><path d="M3 12h15.5a2.5 2.5 0 1 1 -2.34 3.24" /><path d="M4 16h5.5a2.5 2.5 0 1 1 -2.34 3.24" /></svg>
+                        <p id="vento_vl"></p>
                     </div>
                 </div>              
             </div>
