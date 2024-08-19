@@ -1,11 +1,16 @@
 *{
-    padding: 0; /* Remove o espaçamento interno */
-    margin: 0; /* Remove o espaçamento externo */
-    box-sizing: border-box; /*  */
-    transition: all 12s ease-in-out;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+    /* 
+    Reseta os espaçamentos padrões e define que width considere até as bordas.
+    */
 }
 body {
     font-family: sans-serif;
+    /* 
+    Define a fonte padrão do body como sans-serif
+    */
 }
 
 #header{
@@ -13,30 +18,84 @@ body {
     color: white;
     padding: 10px 20px;
     text-align: center;
+    /* 
+    Define a cor de fundo como aqua, a cor do texto como branco, o espaçamento interno de 10px (vertical) e 20px (horizontal) e alinhamento do texto centralizado.
+    */
 }
 #nav {
     display: flex;
     justify-content: space-evenly;
+    /* 
+    Define o diaplay como flex e define o espaçamento entre os elementos como evenly.
+    */
 }
 .nav-item{
-    transition: all ease 10s;
     padding: 10px;
     background-color: rgb(43, 43, 43);
-    color: white;
     border-radius: 5px;
+    /* 
+    Define o espaçamento interno em 10px para todos os lados, a cor de fundo como cinza e o arredondamento da borda em 5px.
+    */
 }
 #main{
     padding: 20px;
     display: flex;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
+    /* 
+    Define o espaçamento interno como 20px para todos os lados,
+    */
 }
 #content{
     flex: 3;
     background-color: whitesmoke;
     margin-right: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    /* 
+    Define que o o content vai ocupar 3/4 do valor total.
+    */
 }
-body *:hover{
-    cursor: pointer;
-    transform: rotateZ(500deg) scale(5) rotateY(800deg) rotateX(1000deg) translateY(-300px);
+#sidebar{
+  flex: 1;
+  background-color: blueviolet;
+  padding: 20px;  
+}
+#footer{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.comment, .image {
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 5px; 
+}
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.image {
+    width: 30%;
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    /* 
+    Define a largura como 30% do espaço disponível, a altura como 100px, e a altura da linhbha como 100px.
+    */
+}
+.news-item {
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 5px;
 }
