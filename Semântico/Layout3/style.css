@@ -1,0 +1,26 @@
+* {
+    border: solid 1px black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    min-height: calc(100vh - 20px);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: calc(100% - 20px);
+    margin: 10px;
+    text-align: center;
+    padding-block: 20px;
+}
+main {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    margin:10px;
+    min-height: calc(100vh - 120px);
+}
