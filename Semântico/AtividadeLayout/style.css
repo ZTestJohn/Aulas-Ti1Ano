@@ -22,15 +22,16 @@ main {
     display: flex;
 }
 main .sidebar {
-    margin: 50px 10px;
+    margin: 120px 10px;
     flex: 1;
     background-color: blueviolet;
-    height: 90%;
+    height: calc(100% - 120px);
 }
 main .main-content {
     flex: 3;
     background-color: greenyellow;
-    height: 90%;
+    margin: 120px 10px;
+    height: calc(100% - 120px);
 }
 footer {
     background-color: orange;
