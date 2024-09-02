@@ -1,31 +1,78 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Define a fonte padrão do documento como Verdana*/
 }
-body{
-    background-color: rgb(23, 23, 26);
+body {
+  background-color: rgb(23, 23, 26);
+  /* Define a cor de fundo como cinza */
 }
 
-.div-lado-a-lado, .div-embaixo {
-    width: 45%;
-    height: 100px;
-    display: inline-block;
-    margin: 5px;
-    text-align: center;
-    line-height: 100px;
-    background-color: blueviolet;
-    color: white;
+.div-lado-a-lado,
+.div-embaixo,
+.barra-lateral {
+  width: 45%;
+  /* Define o width como de 45% */
+  height: 100px;
+  /* Define a altura como 100px */
+  display: inline-block;
+  /* Define o display como inline-block */
+  margin: 5px;
+  /* Margin de 5pxpara todos oslados */
+  text-align: center;
+  /* Alinha o texto ao centro */
+  line-height: 100px;
+  /* Define a altura da linha (centraliza) */
+  background-color: blueviolet;
+  /* Define a cor do fundo */
+  color: white;
+  /* Cor do texto em branco */
 }
-.div1, .div3 {
-    background-color: blue;
+.div1,
+.div3 {
+  background-color: blue;
+  /* Define a cor do fundo */
 }
 .div-embaixo {
-    display: block;
+  display: block;
+  /* Volta o display para o padrão */
 }
 .line {
-    margin-block: 20px;
-    width: 100%;
-    border-bottom: 2px dashed whitesmoke;
+  margin-block: 20px;
+  /* Define uma margem  */
+  width: 100%;
+  /* Define a largura de 100% */
+  border-bottom: 2px dashed whitesmoke;
+  /* Faz uma borda de 2px para fazer uma linha */
 }
-.divs {
-    margin: auto;
+.barra-lateral {
+  float: left;
+  /* Alinhao conteúdo para a esquerda */
+  width: 20%;
+  /* Define o width, a largura, como 20% */
+  line-height: 300px;
+  /* Define a altura da linha (centraliza) */
+  height: 100%;
+  /* Define a altura como 100% */
+}
+.container {
+  width: 75%;
+  /* Define o width, a largura, como 75% */
+  float: right;
+  /* Alinhao conteúdo para a direita */
+}
+.div-em-linha {
+  background-color: blue;
+  /* Define a cor de fundo como azul */
+  width: 100%;
+  /* Define o width, a largura, como 100% */
+  height: 100%;
+  /* Define a altura como 140px */
+  margin: 10px 0;
+  /* Define uma margin de 10px vertical */
+  text-align: center;
+  /* Alinha o texto ao centro */
+  line-height: 140px;
+  /* Define a altura da linha de 140px */
+  color: white;
+  /* Define a cor do texto como branco */
 }
