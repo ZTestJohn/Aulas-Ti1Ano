@@ -1,0 +1,31 @@
+* {
+  font-family: "Nabla", system-ui;
+  font-size: 28px;
+}
+header {
+  background-color: rgb(27, 35, 71);
+}
+nav, header, footer {
+  width: 100%;
+  text-align: center;
+  padding-block: 10px;
+}
+nav, footer {
+    margin-top: 10px;
+    background-color: rgb(42, 82, 90);
+}
+main {
+    margin-block: 10px;
+    gap: 10px;
+    display: flex;
+}
+aside, .content {
+    text-align: center;
+    background-color: rgb(98, 88, 149);
+}
+aside {
+    flex: 1;
+}
+.content {
+    flex: 3;
+}
