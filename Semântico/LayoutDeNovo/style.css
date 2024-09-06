@@ -5,27 +5,45 @@
 header {
   background-color: rgb(27, 35, 71);
 }
-nav, header, footer {
+nav,
+header,
+footer {
   width: 100%;
   text-align: center;
   padding-block: 10px;
 }
-nav, footer {
-    margin-top: 10px;
-    background-color: rgb(42, 82, 90);
+nav,
+footer {
+  margin-top: 10px;
+  background-color: rgb(42, 82, 90);
 }
 main {
-    margin-block: 10px;
-    gap: 10px;
-    display: flex;
+  margin-block: 10px;
+  gap: 10px;
+  display: flex;
 }
-aside, .content {
-    text-align: center;
-    background-color: rgb(98, 88, 149);
+aside,
+.content {
+  text-align: center;
 }
 aside {
-    flex: 1;
+  height: calc(54vh + 20px);
+  line-height: 54vh;
+    background-color: rgb(98, 88, 149);
+  flex: 1;
 }
 .content {
-    flex: 3;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+article,
+section {
+  background-color: rgb(98, 88, 149);
+  flex: 1;
+}
+article, section {
+  height: 27vh;
+  line-height: 27vh;
 }
