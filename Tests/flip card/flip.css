@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh; /* Altura do container será 100% da altura da tela (viewport height). */
+    width: 100%; /* Largura do container será 100% da largura da tela. */
+    display: flex; /* Flexbox é usado para centralizar o conteúdo. */
+    align-items: center; /* Centraliza verticalmente os itens dentro do container. */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do container. */
+    background-image: url('https://img.freepik.com/vetores-gratis/conceito-de-fundo-de-bokeh_23-2148474869.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724889600&semt=ais_hybrid'); /* Aplica uma imagem de fundo ao container. */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita. */
+    background-size: cover; /* A imagem de fundo cobrirá todo o container sem distorção. */
+}
+
+.flip-card {
+    width: 300px;
+    height: 450px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s; /* Transição suave durante 1 segundo para a transformação 3D. */
+    transform-style: preserve-3d; /* Mantém o efeito 3D enquanto o elemento é transformado. */
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Gira a parte interna em 180 graus no eixo Y ao passar o mouse. */
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Esconde a face de trás durante a rotação 3D. */
+}
+/* Define o estado inicial da frente do cartão (nenhuma rotação). */
+.flip-card-front {
+    transform: rotateY(0deg); /* A face frontal não está rotacionada. */
+}
+/* Define a face traseira com uma rotação de 180 graus, para que apareça invertida inicialmente. */
+.flip-card-back {
+    transform: rotateY(180deg); /* A face traseira é rotacionada em 180 graus. */
+}
+
+.flip-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer. */
+    border-radius: 28px;
+}
