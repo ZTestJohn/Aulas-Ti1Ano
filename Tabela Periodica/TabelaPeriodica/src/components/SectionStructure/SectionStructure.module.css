@@ -1,0 +1,47 @@
+@import url(../../styles/variables.module.css);
+
+.SectionStructure {
+  width: 100%;
+  height: calc(100vh - 98px);
+  padding: 20px;
+  color: var(--text-color);
+  background-color: var(--background);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.SectionStructure {
+  background-image: url('https://c.wallhere.com/photos/43/a3/mathematical_formulas_formula_DNA_chemistry_science_diagrams_cells_black_background-2217218.jpg!d');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textArea {
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 0 10px black;
+  background-color: rgba(0, 0, 0, 0.295);
+}
+.textArea {
+    width: 50%;
+}
+.textArea {
+    align-self: center;
+}
+.content {
+    margin-top: var(--padding);
+  text-align: justify;
+}
+.imgdiv {
+  width: 50%;
+}
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv img {
+  max-height: 100%;
+  border-radius: 12px;
+}
