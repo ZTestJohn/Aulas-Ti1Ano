@@ -1,12 +1,29 @@
 import styles from "./PeriodicTableComponent.module.css";
+// import tabelajson from "../../json/csvjson.json";
+import tabelaEnUS from "../../json/PeriodicTableJSON.json"
 
-function PeriodicTableComponent (){
-    return (
-      <>
-        <section className={styles.PeriodicTableComponent}>
-          
-        </section>
-      </>
-    );
-};
+import ElementPeriodicTable from "../ElementPeriodicTable";
+
+function PeriodicTableComponent() {
+  return (
+    <>
+      <section className={styles.PeriodicTableGrid}>
+        {
+          tabelaEnUS.elements.map((e) => {
+            return (
+              <ElementPeriodicTable
+                key={e.symbol}
+                symbol={e.symbol}
+                xpos={e.xpos}
+                ypos={e.ypos}
+                group={e.group}
+              />
+            );
+          })
+          // Literalmente elemento
+        }
+      </section>
+    </>
+  );
+}
 export default PeriodicTableComponent;

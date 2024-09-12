@@ -1,0 +1,8 @@
+@import url(../../styles/variables.module.css);
+
+.ElementPeriodicTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30%;
+}

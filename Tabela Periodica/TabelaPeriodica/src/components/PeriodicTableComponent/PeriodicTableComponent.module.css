@@ -1,4 +1,6 @@
 @import url(../../styles/variables.module.css);
 
-.PeriodicTableComponent{
-    
+.PeriodicTableGrid {
+    display: grid;
+    gap: 5px;
+}
