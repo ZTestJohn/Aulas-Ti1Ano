@@ -1,27 +1,72 @@
 /* eslint-disable react/prop-types */
 import styles from "./ElementPeriodicTable.module.css";
 
-function ElementPeriodicTable({ xpos, ypos, symbol, group }) {
-  group = Number(group) - 1;
-  const colors = [
-    "#244D57",
-    "#523E1B",
-    "#613B28",
-    "#622E39",
-    "#2A4165",
-    "#46474C",
-    "#433C65",
-    "#623842",
-    "#2F4D47",
-    "#004A77",
-  ];
-  let color = colors[group];
+function ElementPeriodicTable({
+  xpos,
+  ypos,
+  symbol,
+  category,
+  number,
+  atomicMass,
+  nomeElemento,
+}) {
+  let color = "";
+  switch (category) {
+    case "diatomic nonmetal":
+      color = "#244D57";
+      break;
+    case "noble gas":
+      color = "#523E1B";
+      break;
+    case "alkali metal":
+      color = "#613B28";
+      break;
+    case "alkaline earth metal":
+      color = "#622E39";
+      break;
+    case "metalloid":
+      color = "#2A4165";
+      break;
+    case "polyatomic nonmetal":
+      color = "#46474C";
+      break;
+    case "post-transition metal":
+      color = "#433C65";
+      break;
+    case "transition metal":
+      color = "#623842";
+      break;
+    case "lanthanide":
+      color = "#2F4D47";
+      break;
+    case "actinide":
+      color = "#004A77";
+      break;
+    case "unknown, probably transition metal":
+      color = "#623842";
+      break;
+    case "unknown, probably post-transition metal":
+      color = "#433C65";
+      break;
+    case "unknown, probably metalloid":
+      color = "#2A4165";
+      break;
+    case "unknown, predicted to be noble gas":
+      color = "#523E1B";
+      break;
+    case "unknown, but predicted to be an alkali metal":
+      color = "#613B28";
+      break;
+  }
   return (
     <div
       className={styles.ElementPeriodicTable}
       style={{ gridColumn: xpos, gridRow: ypos, backgroundColor: color }}
     >
-      {symbol}
+      <h1>{symbol}</h1>
+      <span className={styles.number}>{number}</span>
+      <span className={styles.atomicMass}>{atomicMass.toFixed(3)}</span>
+      <span className={styles.Name}>{ nomeElemento }</span>
     </div>
   );
 }

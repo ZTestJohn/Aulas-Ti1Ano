@@ -5,4 +5,29 @@
     align-items: center;
     justify-content: center;
     padding-block: 30%;
+    transition: transform ease 0.5s;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: relative;
+}
+.ElementPeriodicTable:hover {
+    transform: scale(1.5);
+    z-index: 1000;
+}
+.number {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-size: 10px;
+}
+.atomicMass {
+    top: 6px;
+    right: 2px;
+    font-size: 6px;
+    position: absolute;
+}
+.Name {
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
 }

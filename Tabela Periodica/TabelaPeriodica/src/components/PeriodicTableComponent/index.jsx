@@ -1,6 +1,6 @@
 import styles from "./PeriodicTableComponent.module.css";
-// import tabelajson from "../../json/csvjson.json";
-import tabelaEnUS from "../../json/PeriodicTableJSON.json"
+import tabelajson from "../../json/csvjson.json";
+import tabelaEnUS from "../../json/PeriodicTableJSON.json";
 
 import ElementPeriodicTable from "../ElementPeriodicTable";
 
@@ -16,7 +16,9 @@ function PeriodicTableComponent() {
                 symbol={e.symbol}
                 xpos={e.xpos}
                 ypos={e.ypos}
-                group={e.group}
+                category={e.category}
+                number={e.number}
+                atomicMass={e.atomic_mass}
               />
             );
           })
