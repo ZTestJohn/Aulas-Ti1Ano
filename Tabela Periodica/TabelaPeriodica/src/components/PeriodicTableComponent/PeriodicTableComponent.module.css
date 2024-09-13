@@ -3,4 +3,5 @@
 .PeriodicTableGrid {
     display: grid;
     gap: 5px;
+    padding: 20px;
 }

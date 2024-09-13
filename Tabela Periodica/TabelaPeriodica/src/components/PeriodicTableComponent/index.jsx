@@ -9,7 +9,7 @@ function PeriodicTableComponent() {
     <>
       <section className={styles.PeriodicTableGrid}>
         {
-          tabelaEnUS.elements.map((e) => {
+          tabelaEnUS.elements.map((e, index) => {
             return (
               <ElementPeriodicTable
                 key={e.symbol}
@@ -19,6 +19,7 @@ function PeriodicTableComponent() {
                 category={e.category}
                 number={e.number}
                 atomicMass={e.atomic_mass}
+                nomeElemento={tabelajson[index].nome}
               />
             );
           })

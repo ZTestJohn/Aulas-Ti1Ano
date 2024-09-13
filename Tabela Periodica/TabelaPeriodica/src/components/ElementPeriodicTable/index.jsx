@@ -30,7 +30,7 @@ function ElementPeriodicTable({
     case "polyatomic nonmetal":
       color = "#46474C";
       break;
-    case "post-transition metal":
+    case "post-transition metal":+
       color = "#433C65";
       break;
     case "transition metal":
@@ -42,20 +42,8 @@ function ElementPeriodicTable({
     case "actinide":
       color = "#004A77";
       break;
-    case "unknown, probably transition metal":
-      color = "#623842";
-      break;
-    case "unknown, probably post-transition metal":
-      color = "#433C65";
-      break;
-    case "unknown, probably metalloid":
-      color = "#2A4165";
-      break;
-    case "unknown, predicted to be noble gas":
-      color = "#523E1B";
-      break;
-    case "unknown, but predicted to be an alkali metal":
-      color = "#613B28";
+    default:
+      color = "#84049e";
       break;
   }
   return (

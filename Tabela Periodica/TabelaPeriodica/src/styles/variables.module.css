@@ -8,6 +8,7 @@
   --background-box-color: #eef1f3;
   --background-dark1: #e1e5ec;
   --hover-selected: #69b3d4;
+
   /* Cores tabelas Periódica => */
   --group1: #244D57;
   --group2: #523E1B;
@@ -19,4 +20,5 @@
   --group8: #623842;
   --group9: #2F4D47;
   --group10: #004A77;
+  --default: #84049e;
 }
