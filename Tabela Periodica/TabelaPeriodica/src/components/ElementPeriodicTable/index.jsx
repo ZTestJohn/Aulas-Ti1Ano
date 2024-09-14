@@ -30,7 +30,7 @@ function ElementPeriodicTable({
     case "polyatomic nonmetal":
       color = "#46474C";
       break;
-    case "post-transition metal":+
+    case "post-transition metal":
       color = "#433C65";
       break;
     case "transition metal":
