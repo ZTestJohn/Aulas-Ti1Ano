@@ -25,13 +25,13 @@ function FlipCard({ categoryName, elementName, elementSymbol, number, mass, urlM
             style={{ backgroundColor: color }}
           >
             <div className={styles.modelo}>
-              <model-viewer
+            <model-viewer
+                style={{width: "300px", height: "200px"}}
                 src={urlModelo3D}
                 alt="Um modelo 3D"
                 auto-rotate
                 camera-controls
                 ar
-                style={{ width: 100% }}
               ></model-viewer>
             </div>
           </div>
