@@ -1,0 +1,480 @@
+{
+    "elements": [
+        {
+            "name": "Hydrogen",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Helium",
+            "category": "Gases nobres"
+        },
+        {
+            "name": "Lithium",
+            "category": "Metais alcalinos"
+        },
+        {
+            "name": "Beryllium",
+            "category": "Metais alcalinoterrosos"
+        },
+        {
+            "name": "Boron",
+            "category": "Semimetais"
+        },
+        {
+            "name": "Carbon",
+            "category": "Não metais"
+        },
+        {
+            "name": "Nitrogen",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Oxygen",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Fluorine",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Neon",
+            "category": "Gases nobres"
+        },
+        {
+            "name": "Sodium",
+            "category": "Metais alcalinos"
+        },
+        {
+            "name": "Magnesium",
+            "category": "Metais alcalinoterrosos"
+        },
+        {
+            "name": "Aluminium",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Silicon",
+            "category": "Semimetais"
+        },
+        {
+            "name": "Phosphorus",
+            "category": "Não metais"
+        },
+        {
+            "name": "Sulfur",
+            "category": "Não metais"
+        },
+        {
+            "name": "Chlorine",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Argon",
+            "category": "Gases nobres"
+        },
+        {
+            "name": "Potassium",
+            "category": "Metais alcalinos"
+        },
+        {
+            "name": "Calcium",
+            "category": "Metais alcalinoterrosos"
+        },
+        {
+            "name": "Scandium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Titanium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Vanadium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Chromium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Manganese",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Iron",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Cobalt",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Nickel",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Copper",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Zinc",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Gallium",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Germanium",
+            "category": "Semimetais"
+        },
+        {
+            "name": "Arsenic",
+            "category": "Semimetais"
+        },
+        {
+            "name": "Selenium",
+            "category": "Não metais"
+                
+        },
+        {
+            "name": "Bromine",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Krypton",
+            "category": "Gases nobres"
+        },
+        {
+            "name": "Rubidium",
+            "category": "Metais alcalinos"
+        },
+        {
+            "name": "Strontium",
+            "category": "Metais alcalinoterrosos"
+        },
+        {
+            "name": "Yttrium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Zirconium",
+            "category": "Metal de transição"
+                
+        },
+        {
+            "name": "Niobium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Molybdenum",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Technetium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Ruthenium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Rhodium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Palladium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Silver",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Cadmium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Indium",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Tin",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Antimony",
+            "category": "Semimetais"
+                
+        },
+        {
+            "name": "Tellurium",
+            "category": "Semimetais"
+        },
+        {
+            "name": "Iodine",
+            "category": "Halogênios"
+        },
+        {
+            "name": "Xenon",
+            "category": "Gases nobres"
+        },
+        {
+            "name": "Cesium",
+            "category": "Metais alcalinos"
+        },
+        {
+            "name": "Barium",
+            "category": "Metais alcalinoterrosos"
+        },
+        {
+            "name": "Lanthanum",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Cerium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Praseodymium",
+            "category": "Lantanídeos"
+                
+        },
+        {
+            "name": "Neodymium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Promethium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Samarium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Europium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Gadolinium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Terbium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Dysprosium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Holmium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Erbium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Thulium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Ytterbium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Lutetium",
+            "category": "Lantanídeos"
+        },
+        {
+            "name": "Hafnium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Tantalum",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Tungsten",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Rhenium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Osmium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Iridium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Platinum",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Gold",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Mercury",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Thallium",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Lead",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Bismuth",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Polonium",
+            "category": "Metais pós-transição"
+        },
+        {
+            "name": "Astatine",
+            "category": "Semimetais"
+        },
+        {
+            "name": "Radon",
+            "category": "Gases nobres"
+        },
+        {
+            "name": "Francium",
+            "category": "Metais alcalinos"
+        },
+        {
+            "name": "Radium",
+            "category": "Metais alcalinoterrosos"
+        },
+        {
+            "name": "Actinium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Thorium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Protactinium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Uranium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Neptunium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Plutonium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Americium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Curium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Berkelium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Californium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Einsteinium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Fermium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Mendelevium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Nobelium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Lawrencium",
+            "category": "Actinídeo"
+        },
+        {
+            "name": "Rutherfordium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Dubnium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Seaborgium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Bohrium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Hassium",
+            "category": "Metal de transição"
+        },
+        {
+            "name": "Meitnerium",
+            "category": "desconhecidos, provavelmente Metal de transição"
+        },
+        {
+            "name": "Darmstadtium",
+            "category": "desconhecidos, provavelmente Metal de transição"
+        },
+        {
+            "name": "Roentgenium",
+            "category": "desconhecidos, provavelmente Metal de transição"
+        },
+        {
+            "name": "Copernicium",
+            "category": "desconhecido"
+        },
+        {
+            "name": "Nihonium",
+            "category": "desconhecidos, provavelmente Metal de transição"
+        },
+        {
+            "name": "Flerovium",
+            "category": "desconhecido"
+        },
+        {
+            "name": "Moscovium",
+            "category": "desconhecidos, provavelmente Metais pós-transição"
+        },
+        {
+            "name": "Livermorium",
+            "category": "desconhecidos, provavelmente Metais pós-transição"
+        },
+        {
+            "name": "Tennessine",
+            "category": "desconhecidos, provavelmente Semimetais"
+        },
+        {
+            "name": "Oganesson",
+            "category": "desconhecidos, previsto como Gas nobre"
+        }        
+    ]
+}

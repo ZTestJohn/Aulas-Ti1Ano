@@ -6,10 +6,13 @@
     justify-content: center;
     padding-block: 30%;
     transition: transform ease 0.5s;
+    color: white;
+    font-family: var(--font);
     border: 0.5px solid rgba(255, 255, 255, 0.5);
     cursor: pointer;
     position: relative;
     border-radius: 2px;
+    scroll-behavior: smooth;
 }
 .ElementPeriodicTable:hover {
     transform: scale(1.5);
@@ -31,4 +34,7 @@
     position: absolute;
     bottom: 5px;
     font-size: 10px;
+}
+a {
+    scroll-behavior: smooth;
 }

@@ -5,12 +5,22 @@
   min-height: calc(100vh - 98px);
   padding: 20px;
 }
-
+.textBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.textBar {
+  font-size: 1.3em;
+}
 .SectionFamily h2 {
-  font-size: 40px;
+  font-size: 2.3em;
 }
 .cards{
   display: flex;
+  flex-wrap: wrap;
   padding: 10px;
   gap: 10px;
 }
