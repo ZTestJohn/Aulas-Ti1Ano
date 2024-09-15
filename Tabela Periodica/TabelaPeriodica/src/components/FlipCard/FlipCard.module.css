@@ -81,9 +81,6 @@
   object-fit: cover;
   border-radius: 28px;
 }
-.modelo {
-  height: 100%;
-}
 
 .flip_card:hover {
     animation: no-hover-card-animation 0;

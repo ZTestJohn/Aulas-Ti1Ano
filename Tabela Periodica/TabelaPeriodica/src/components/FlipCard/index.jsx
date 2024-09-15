@@ -31,6 +31,7 @@ function FlipCard({ categoryName, elementName, elementSymbol, number, mass, urlM
                 auto-rotate
                 camera-controls
                 ar
+                style={{ width: 100% }}
               ></model-viewer>
             </div>
           </div>
