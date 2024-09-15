@@ -72,6 +72,7 @@
   bottom: 110px;
 }
 .flip_card_back {
+  padding: 20px;
   transform: rotateY(180deg);
 }
 
@@ -95,6 +96,31 @@
 .modelo:hover::after {
   content: "Use o scroll para dar zoom";
   position:absolute;
+}
+.Info {
+  font-size: 1em;
+  font-weight: 300;
+}
+.Resumo {
+  text-align: justify;
+  max-height: 150px;
+  overflow-y: auto; 
+  padding-right: 10px;
+  height: 110px;
+}
+.Resumo::-webkit-scrollbar {
+  width: 5px;
+}
+.Resumo::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.Resumo::-webkit-scrollbar-thumb {
+  filter: invert(1);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px; 
+}
+.Resumo::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7); 
 }
 
 @keyframes no-hover-card-animation {

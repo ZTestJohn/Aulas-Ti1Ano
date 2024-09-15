@@ -3,11 +3,11 @@ function verifyColor(category) {
     case "diatomic nonmetal":
       return "#244D57";
     case "noble gas":
-      return "#523E1B";
+      return "#58962e";
     case "alkali metal":
-      return "#613B28";
+      return "#bb3e00";
     case "alkaline earth metal":
-      return "#622E39";
+      return "#0387af";
     case "metalloid":
       return "#2A4165";
     case "polyatomic nonmetal":

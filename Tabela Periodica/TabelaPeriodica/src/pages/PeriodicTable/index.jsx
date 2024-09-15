@@ -8,6 +8,7 @@ import tabelaPortugues from "../../json/categoryUtilities.json";
 import tabelaPtBrCompleta from "../../json/csvjson.json";
 import tabelaIngles from "../../json/PeriodicTableJSON.json";
 import FlipCard from "../../components/FlipCard";
+import descriptions from "../../json/descriptions.json";
 
 function PeriodicTable() {
   const categories = [
@@ -63,6 +64,9 @@ function PeriodicTable() {
                     mass={tabelaIngles.elements[index].atomic_mass}
                     number={tabelaIngles.elements[index].number}
                     urlModelo3D={tabelaIngles.elements[index].bohr_model_3d}
+                    density={tabelaIngles.elements[index].density}
+                    discoverBy={tabelaIngles.elements[index].discovered_by}
+                    sumary={descriptions[index].resumo}
                   />
                 ))
               }

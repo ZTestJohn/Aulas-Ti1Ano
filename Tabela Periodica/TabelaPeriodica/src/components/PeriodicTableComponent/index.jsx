@@ -10,6 +10,7 @@ function PeriodicTableComponent() {
       <section className={styles.PeriodicTableGrid}>
         {
           tabelaEnUS.elements.map((e, index) => {
+            console.log(e.xpos, e.ypos)
             return (
               <ElementPeriodicTable
                 key={e.symbol}

@@ -13,10 +13,8 @@ function ElementPeriodicTable({
 }) {
   let color = verifyColor(category);
   function scrollar() {
-    const cardLocal = document.getElementById(symbol)
-    if (cardLocal) {
-      cardLocal.scrollIntoView({ behavior: 'smooth' });
-    }
+    const cardLocal = document.getElementById(number)
+    cardLocal.scrollIntoView({ behavior: 'smooth' });
   }
   return (
     <button

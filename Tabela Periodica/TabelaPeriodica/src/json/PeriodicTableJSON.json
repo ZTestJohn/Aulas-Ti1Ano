@@ -3177,7 +3177,7 @@
             "summary": "Lanthanum is a soft, ductile, silvery-white metallic chemical element with symbol La and atomic number 57. It tarnishes rapidly when exposed to air and is soft enough to be cut with a knife. It gave its name to the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table:it is also sometimes considered the first element of the 6th-period transition metals.",
             "symbol": "La",
             "xpos": 3,
-            "ypos": 9,
+            "ypos": 6,
             "wxpos": 3,
             "wypos": 6,
             "shells": [
@@ -4791,7 +4791,7 @@
             "summary": "Actinium is a radioactive chemical element with symbol Ac (not to be confused with the abbreviation for an acetyl group) and atomic number 89, which was discovered in 1899. It was the first non-primordial radioactive element to be isolated. Polonium, radium and radon were observed before actinium, but they were not isolated until 1902.",
             "symbol": "Ac",
             "xpos": 3,
-            "ypos": 10,
+            "ypos": 7,
             "wxpos": 3,
             "wypos": 7,
             "shells": [
