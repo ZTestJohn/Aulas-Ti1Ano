@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body {
+  height: 100vh;
+  & * {
+    border: 1px solid rgb(167, 167, 167);
+    text-align: center;
+  }
+}
+header,
+footer {
+  height: 50px;
+  line-height: 50px;
+}
+main {
+  height: calc(100vh - 100.6px);
+  display: flex;
+    padding: 20px;
+}
+.menu_lateral,
+nav {
+  width: 30vw;
+}
+nav, .bloco, .textao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+  width: 70vw;
+  padding: 20px;
+}
+.blocos {
+    padding: 20px;
+    flex: 5;
+    display: flex;
+}
+.blocos p{
+    padding: 20px;
+    flex: 3;
+}
+.blocos-menores{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.imagens {
+    background-position: center;
+    background-size: contain;
+    background-image: url("https://www.iconmimarlik.com.tr/kullanici/icerik/icerik_resimleri/icon64-1-5d27f.png");
+    flex: 2;
+    height: 100%;
+}
+.bloco {
+    flex: 1;
+}
