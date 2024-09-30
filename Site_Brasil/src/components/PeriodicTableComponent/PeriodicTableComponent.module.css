@@ -1,7 +1,0 @@
-@import url(../../styles/variables.module.css);
-
-.PeriodicTableGrid {
-    display: grid;
-    gap: 5px;
-    padding: 20px;
-}

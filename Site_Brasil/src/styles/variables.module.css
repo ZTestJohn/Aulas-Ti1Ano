@@ -1,11 +1,11 @@
 :root {
-  --text-color: rgba(255, 255, 255, 0.87);
-  --background: #242424;
+  --text-color: rgba(44, 69, 64, 0.87);
+  --background: #f1eff7;
   --padding: 15px;
   --font: "Poppins", sans-serif;
-  --primary-color: #77c1e4;
-  --secundary-color: #5ba0ce;
-  --background-box-color: #eef1f3;
+  --primary-color: #9C9C9C;
+  --secundary-color: #92E3A9;
+  --background-box-color: #e1e9ef;
   --background-dark1: #e1e5ec;
-  --hover-selected: #69b3d4;
+  --hover-selected: #9ee1a2;
 }

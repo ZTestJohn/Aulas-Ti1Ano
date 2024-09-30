@@ -34,18 +34,18 @@ function Header() {
           </button>
           <div>
             <img
-              src="../../public/Icons/bioquimica.png"
+              src="../../public/brasil.png"
               alt="Logo"
               width="38px"
             />
             <Link to="/">
-              <span>Química.Br</span>
+              <span>Guerras Brasileiras</span>
             </Link>
           </div>
         </div>
         <nav>
           <Link to="/">Página inicial</Link>
-          <Link to="/PeriodicTable">Tabela Periódica</Link>
+          <Link to="/PeriodicTable">Todas as guerras</Link>
         </nav>
       </header>
     </>
