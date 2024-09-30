@@ -1,0 +1,40 @@
+@import url(../../styles/variables.module.css);
+
+.ElementPeriodicTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30%;
+    transition: transform ease 0.5s;
+    color: white;
+    font-family: var(--font);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: relative;
+    border-radius: 2px;
+    scroll-behavior: smooth;
+}
+.ElementPeriodicTable:hover {
+    transform: scale(1.5);
+    z-index: 1000;
+}
+.number {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-size: 10px;
+}
+.atomicMass {
+    top: 6px;
+    right: 2px;
+    font-size: 6px;
+    position: absolute;
+}
+.Name {
+    position: absolute;
+    bottom: 5px;
+    font-size: 10px;
+}
+a {
+    scroll-behavior: smooth;
+}

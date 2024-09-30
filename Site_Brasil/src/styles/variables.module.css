@@ -1,0 +1,11 @@
+:root {
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background: #242424;
+  --padding: 15px;
+  --font: "Poppins", sans-serif;
+  --primary-color: #77c1e4;
+  --secundary-color: #5ba0ce;
+  --background-box-color: #eef1f3;
+  --background-dark1: #e1e5ec;
+  --hover-selected: #69b3d4;
+}
