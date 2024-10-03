@@ -43,9 +43,9 @@ function Header() {
             </Link>
           </div>
         </div>
-        <nav>
+        <nav className={styles.linksNav}>
           <Link to="/">Página inicial</Link>
-          <Link to="/PeriodicTable">Todas as guerras</Link>
+          <Link to="/Wars">Todas as guerras</Link>
         </nav>
       </header>
     </>

@@ -56,7 +56,7 @@ a {
 }
 
 @media (width < 640px) {
-  nav {
+  .linksNav {
     display: none;
   }
 }

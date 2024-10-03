@@ -5,9 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    border-top: solid 5px var(--secundary-color);
-    background-color: var(--primary-color);
+    height: 65px;
+    background-color: var(--background);
 }
 .footer p{
     color: var(--text-color);
