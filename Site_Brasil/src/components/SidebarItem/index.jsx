@@ -4,11 +4,9 @@ import styles from "./SidebarItem.module.css";
 
 function SidebarItem({ link, textLink }) {
   return (
-    <div className={styles.SidebarItem}>
-      <Link to={`/${link}`}>
-        {textLink}
-      </Link>
-    </div>
+    <Link className={styles.link} to={`/${link}`}>
+      <div className={styles.SidebarItem}>{textLink}</div>
+    </Link>
   );
 }
 

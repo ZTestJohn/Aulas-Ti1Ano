@@ -1,0 +1,89 @@
+body{
+  background-image: url("../../img/speedline.svg");
+  background-size: 50%;
+  animation: mover-diagonal 10s linear infinite;
+}
+@keyframes mover-diagonal {
+  0%{
+    background-position: 100% 0;
+  }
+  100%{
+    background-position: 0 100%;
+  }
+}
+.svgPergunta {
+  max-width: 50vw;
+  max-height: 80vh;
+}
+.Main {
+  display: flex;
+  align-items: center;
+}
+.Main div, .texts_content {
+  flex: 1;
+  height: 100%;
+}
+.Main div,
+.texts_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texts {
+  max-width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.texts a {
+  margin-top: 20px;
+  align-self: self-start;
+  padding: 10px;
+  background-color: var(--secundary-color);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.4em;
+  transition: transform 0.5s ease;
+}
+.texts a:hover{
+  transform: scale(1.2);
+}
+.texts p {
+  text-shadow: rgba(0, 0, 0, 0.288) 1px 0 10px;
+  font-weight: 700;
+  font-size: 3em;
+  position: relative;
+}
+.texts p span{
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg");
+  background-position: center;
+  background-size: 100%;
+  text-shadow: rgba(9, 100, 1, 0.473) 1px 0 10px;
+}
+@media (width < 860px) {
+  body{
+    background-size: 100%;
+  }
+  .Main {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 183px);
+  }
+  .svgPergunta {
+    width: 100vw;
+    transform: scale(1.4);
+  }
+  .texts p {
+    font-size: 2em;
+  }
+  .texts {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .Main div {
+    flex: initial;
+  }
+}

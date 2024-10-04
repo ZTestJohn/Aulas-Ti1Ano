@@ -2,9 +2,12 @@
 
 .Container{
     width: 100%;
-    min-height: calc(100vh - 138px);
+    min-height: calc(100vh - 143px);
     padding-block: 20px;
     color: var(--text-color);
     background-color: var(--background);
     overflow-x: hidden;
+}
+.Container:has(big){
+    background-color: transparent;
 }
