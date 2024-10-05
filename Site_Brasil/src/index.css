@@ -16,3 +16,6 @@ button {
   border: none;
   background-color: transparent;
 }
+ul, li, ol {
+  list-style-type: none;
+}

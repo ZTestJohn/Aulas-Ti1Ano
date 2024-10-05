@@ -1,32 +1,272 @@
 [
   {
-    "Nome": "Guerra dos Palmares"
+    "nome": "Guerra dos Palmares",
+    "data": "1605-1695",
+    "descrição_curta": "Conflito entre escravos fugitivos do Quilombo dos Palmares e as forças coloniais portuguesas, culminando na destruição do quilombo e na morte de Zumbi dos Palmares em 1695.",
+    "descrição_detalhada": "A Guerra dos Palmares foi um longo conflito entre as forças coloniais portuguesas e os habitantes do Quilombo dos Palmares, uma comunidade formada por escravos fugidos, indígenas e até desertores, localizada na atual Serra da Barriga, em Alagoas. Durante quase um século, o quilombo resistiu a várias investidas, tornando-se um símbolo de resistência contra a escravidão no Brasil colonial. O auge do conflito ocorreu entre 1692 e 1694, quando o governador de Pernambuco contratou o bandeirante Domingos Jorge Velho para liderar um ataque massivo ao quilombo, que incluía o uso de artilharia pesada. Após meses de cerco, a fortaleza principal do quilombo, a Cerca Real do Macaco, foi destruída. Zumbi dos Palmares, líder militar e político, foi capturado e morto em 1695. O quilombo foi extinto oficialmente, mas continuou a ser lembrado como um marco da resistência à opressão escravista.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/6/67/Zumbi-dos-Palmares.jpg",
+    "curiosidades": [
+      "Zumbi dos Palmares foi criado por um padre português, onde aprendeu latim e português antes de fugir e se juntar ao quilombo.",
+      "O Quilombo dos Palmares chegou a abrigar cerca de 20 mil pessoas, tornando-se uma das maiores comunidades de escravos fugitivos das Américas.",
+      "O Dia da Consciência Negra no Brasil é celebrado em 20 de novembro, data da morte de Zumbi dos Palmares."
+    ],
+    "imagem_mapa": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Mapa_quilombo_Palmares.png",
+    "link_video": "https://www.youtube.com/watch?v=e5AcOPLiKwc",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Guerra_dos_Palmares",
+      "https://brasilescola.uol.com.br/historiab/quilombo-dos-palmares.htm",
+      "https://www.todoestudo.com.br/historia/quilombo-dos-palmares"
+    ],
+    "principais_batalhas": [
+      "Cerco à Cerca Real do Macaco (1694)",
+      "Ataques holandeses (1644-1645)"
+    ]
   },
   {
-    "Nome": "Guerra dos Emboabas"
+    "nome": "Guerra dos Emboabas",
+    "data": "1707 - 1709",
+    "descrição_curta": "Conflito entre bandeirantes paulistas e forasteiros pelo controle da exploração de ouro em Minas Gerais.",
+    "descrição_detalhada": "A Guerra dos Emboabas foi um conflito que ocorreu entre 1707 e 1709 na região de Minas Gerais, envolvendo bandeirantes paulistas e colonos portugueses (conhecidos como emboabas) que disputavam o direito de explorar as recém-descobertas jazidas de ouro. Os paulistas, que reivindicavam a exclusividade da exploração por serem os primeiros a chegar, enfrentaram os emboabas, que se organizaram sob a liderança de Manuel Nunes Viana. A guerra terminou com a vitória dos emboabas e a intervenção da Coroa Portuguesa, que criou a Capitania das Minas de Ouro e passou a cobrar impostos sobre o ouro extraído.",
+    "url_imagem": "https://example.com/imagem_guerra_emboabas.jpg",
+    "curiosidades": [
+      "O termo 'emboaba' era usado de forma pejorativa pelos paulistas para se referirem aos forasteiros.",
+      "A batalha mais famosa da guerra, conhecida como 'Capão da Traição', resultou na morte de mais de 300 paulistas."
+    ],
+    "principais_batalhas": [
+      "Batalha de Cachoeira do Campo",
+      "Batalha do Capão da Traição"
+    ],
+    "imagem_mapa": "https://example.com/mapa_guerra_emboabas.jpg",
+    "link_video": "https://www.youtube.com/watch?v=exemploVideoGuerra",
+    "fonte": [
+      "https://brasilescola.uol.com.br",
+      "https://mundoeducacao.uol.com.br"
+    ]
   },
-  { 
-    "Nome": "Guerra dos Mascates" 
-},
-  { 
-    "Nome": "Inconfidência Mineira" 
-},
-  { 
-    "Nome": "Guerra da Cisplatina" 
-},
-  { 
-    "Nome": "Revolução Farroupilha" 
-},
-  { 
-    "Nome": "Guerra do Paraguai" 
-},
-  { 
-    "Nome": "Revolta da Armada" 
-},
-  { 
-    "Nome": "Revolução Constitucionalista" 
-},
-  { 
-    "Nome": "Participação do Brasil na Segunda Guerra Mundial"
-}
+  {
+    "nome": "Guerra dos Mascates",
+    "data": "1710-1711",
+    "descrição_curta": "Conflito entre os comerciantes portugueses de Recife e a aristocracia rural de Olinda, causado por disputas econômicas e políticas.",
+    "descrição_detalhada": "A Guerra dos Mascates foi um conflito ocorrido entre 1710 e 1711 na Capitania de Pernambuco, envolvendo principalmente as cidades de Olinda e Recife. O contexto histórico do conflito estava na crise econômica que atingia Olinda, dependente da produção açucareira, enquanto Recife prosperava economicamente através dos comerciantes portugueses, conhecidos pejorativamente como 'mascates'. Recife, impulsionada por seu porto e comércio, buscava maior autonomia política e, em 1709, foi elevada à condição de vila, com sua própria Câmara Municipal. A aristocracia rural de Olinda, endividada com os comerciantes recifenses, não aceitou a independência de Recife e, em 1710, invadiu a cidade. A resposta dos mascates foi rápida, e, com o apoio da Coroa Portuguesa, derrotaram os olindenses. Em 1712, Recife se tornou oficialmente a sede administrativa de Pernambuco, consolidando o poder dos comerciantes e aumentando as tensões sociais entre a elite rural de Olinda e a burguesia mercantil emergente.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Recife_%28Henry_Chamberlain%29.jpg",
+    "curiosidades": [
+      "O termo 'Guerra dos Mascates' foi amplamente popularizado pelo romance de José de Alencar, publicado em 1873.",
+      "O conflito marcou a ascensão econômica de Recife, que logo se tornaria um dos centros urbanos mais importantes do Brasil Colônia."
+    ],
+    "imagem_mapa": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mapa_de_Pernambuco%2C_Brasil.png",
+    "link_video": "https://www.youtube.com/watch?v=Kb2bc_cC68o",
+    "fontes": [
+      "https://www.todamateria.com.br/guerra-dos-mascates",
+      "https://www.infoescola.com/historia/guerra-dos-mascates",
+      "https://mundoeducacao.uol.com.br/historia/guerra-dos-mascates.htm"
+    ],
+    "principais_batalhas": [
+      {
+        "nome": "Invasão de Recife",
+        "ano": 1710,
+        "descrição": "Os olindenses, liderados por Bernardo Vieira de Melo, invadem Recife e destroem o pelourinho da cidade, símbolo de sua autonomia."
+      },
+      {
+        "nome": "Contra-ataque dos Mascates",
+        "ano": 1711,
+        "descrição": "Os comerciantes de Recife, mais organizados, contra-atacam e tomam Olinda, com o apoio da Coroa Portuguesa."
+      }
+    ]
+  },
+  {
+    "nome": "Inconfidência Mineira",
+    "data": "1789",
+    "descrição_curta": "Movimento separatista ocorrido em Minas Gerais, motivado pelos altos impostos e inspirado pelas ideias do Iluminismo.",
+    "descrição_detalhada": "A Inconfidência Mineira foi uma conspiração ocorrida na capitania de Minas Gerais, em 1789, com o objetivo de obter a independência da região em relação à coroa portuguesa e instaurar uma república. Os inconfidentes eram membros da elite local, incluindo fazendeiros, padres, militares e intelectuais, como Tiradentes, Tomás Antônio Gonzaga e Cláudio Manuel da Costa. O movimento foi motivado principalmente pelos altos impostos, como a Derrama, e pelo descontentamento com a exploração colonial. Inspirados pelas revoluções americana e francesa, os inconfidentes planejavam iniciar a revolta durante a execução da Derrama, mas o plano foi descoberto pela coroa através da delação de Joaquim Silvério dos Reis. Tiradentes foi o único dos conspiradores condenado à morte, sendo enforcado e esquartejado em 1792, enquanto os outros envolvidos foram presos ou deportados.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Antônio_Parreiras_-_Tiradentes_the_hero_of_Independence.jpg/800px-Antônio_Parreiras_-_Tiradentes_the_hero_of_Independence.jpg",
+    "curiosidades": [
+      "A bandeira proposta pelos inconfidentes trazia um triângulo vermelho e a frase 'Libertas quae sera tamen', que significa 'Liberdade ainda que tardia'.",
+      "A Inconfidência Mineira influenciou o movimento republicano brasileiro, e Tiradentes se tornou um símbolo da luta pela liberdade.",
+      "O dia 21 de abril, data da execução de Tiradentes, é feriado nacional no Brasil."
+    ],
+    "imagem_mapa_região": "https://upload.wikimedia.org/wikipedia/commons/8/85/Inconfidencia_mapa.jpg",
+    "link_video": "https://www.youtube.com/watch?v=OlbLxyonXuM",
+    "fontes": [
+      "https://www.todamateria.com.br/inconfidencia-mineira/",
+      "https://www.beduka.com/blog/historia/inconfidencia-mineira/",
+      "https://www.suapesquisa.com/historia/inconfidencia_mineira.htm"
+    ],
+    "principais_batalhas": "Não houve batalhas, pois o movimento foi descoberto antes de sua execução."
+  },
+  {
+    "nome": "Guerra da Cisplatina",
+    "data": "1825-1828",
+    "descrição_curta": "Conflito entre o Império do Brasil e as Províncias Unidas do Rio da Prata, que resultou na independência do Uruguai.",
+    "descrição_detalhada": "A Guerra da Cisplatina foi um conflito armado entre o Império do Brasil e as Províncias Unidas do Rio da Prata (atual Argentina), de 1825 a 1828. A região da Cisplatina, anteriormente parte do Vice-reinado do Rio da Prata, foi anexada ao Império do Brasil em 1821 após a invasão portuguesa em 1816. No entanto, as elites locais e a população majoritariamente de origem espanhola se opuseram à anexação, dando início a movimentos de independência. O conflito começou oficialmente em 1825, quando Juan Antonio Lavalleja e Fructuoso Rivera proclamaram a independência da Cisplatina, com apoio das Províncias Unidas. D. Pedro I, imperador do Brasil, declarou guerra em dezembro de 1825, mas o Brasil enfrentou dificuldades logísticas e financeiras, além de uma marinha inimiga eficiente. A guerra terminou com a Convenção Preliminar de Paz, assinada em 1828, que reconheceu a criação da República Oriental do Uruguai.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/3/34/Batalha_de_Ituzaing%C3%B3.jpg",
+    "curiosidades": [
+      "A Guerra da Cisplatina foi um dos fatores que levaram à abdicação de D. Pedro I em 1831, devido à insatisfação popular com a derrota.",
+      "A guerra foi extremamente cara para o Império Brasileiro, gerando grandes dívidas e enfraquecendo politicamente D. Pedro I.",
+      "Mesmo sendo derrotado no conflito terrestre, o Brasil manteve um bloqueio naval eficiente durante boa parte da guerra."
+    ],
+    "imagem_mapa": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cisplatina_Map_1820.svg",
+    "link_video": "https://www.youtube.com/watch?v=56QwA4Cw78g",
+    "fontes": [
+      "https://www.todamateria.com.br/guerra-da-cisplatina/",
+      "https://pt.wikipedia.org/wiki/Guerra_da_Cisplatina",
+      "https://www.suapesquisa.com/historia/guerra_cisplatina.htm"
+    ],
+    "principais_batalhas": [
+      {
+        "nome": "Batalha de Sarandi",
+        "data": "12 de outubro de 1825"
+      },
+      {
+        "nome": "Batalha de Ituzaingó (ou Passo do Rosário)",
+        "data": "20 de fevereiro de 1827"
+      },
+      {
+        "nome": "Batalha de Monte Santiago",
+        "data": "8 de abril de 1827"
+      }
+    ]
+  },
+  {
+    "nome": "Revolução Farroupilha (Guerra dos Farrapos)",
+    "data": "1835-1845",
+    "descrição_curta": "Conflito entre gaúchos e o governo imperial brasileiro, com o objetivo de maior autonomia e, posteriormente, a separação do Rio Grande do Sul.",
+    "descrição_detalhada": "A Revolução Farroupilha foi um dos mais longos conflitos da história do Brasil, ocorrendo entre 1835 e 1845 no Rio Grande do Sul. O movimento foi motivado por descontentamento político e econômico com o governo imperial, especialmente em relação aos altos impostos sobre o charque e outros produtos locais, além da centralização de poder no governo central. Os farroupilhas, liderados por figuras como Bento Gonçalves e Giuseppe Garibaldi, chegaram a proclamar a República Rio-Grandense e a República Juliana, ambas de caráter separatista. No entanto, o conflito terminou com a assinatura do Tratado de Poncho Verde, que reintegrou a província ao Brasil. Entre os fatores que levaram ao fim da guerra estão o enfraquecimento militar dos farrapos e a atuação do Duque de Caxias, que usou de diplomacia e força militar para suprimir a revolta.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_Rio-Grandense_em_1836.jpg",
+    "curiosidades": [
+      "A guerra resultou em aproximadamente 3 mil mortes.",
+      "A bandeira do Rio Grande do Sul foi inspirada na bandeira da República Rio-Grandense, criada durante o conflito.",
+      "Giuseppe Garibaldi, que participou da Revolução Farroupilha, também lutou em movimentos revolucionários na Europa."
+    ],
+    "mapa_região": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mapa_com_paradas_e_conquistas_dos_farrapos.png",
+    "link_video": "https://www.youtube.com/watch?v=p9GiwX9EjeM",
+    "fonte_informações": [
+      "https://www.suapesquisa.com/historia/guerra_farrapos.htm",
+      "https://www.historiadomundo.com.br/idade-contemporanea/guerra-dos-farrapos.htm"
+    ],
+    "principais_batalhas": [
+      {
+        "nome": "Batalha do Seival",
+        "data": "10 de setembro de 1836",
+        "descrição": "Essa batalha foi uma das principais vitórias dos farrapos, culminando na proclamação da República Rio-Grandense logo após."
+      },
+      {
+        "nome": "Conquista de Laguna",
+        "data": "1839",
+        "descrição": "David Canabarro e Giuseppe Garibaldi lideraram a conquista da cidade de Laguna, proclamando a República Juliana."
+      }
+    ]
+  },
+  {
+    "nome": "Guerra do Paraguai",
+    "data": "1864-1870",
+    "descrição_curta": "Conflito entre o Paraguai e a Tríplice Aliança (Brasil, Argentina e Uruguai), o maior conflito armado da América do Sul.",
+    "descrição_detalhada": "A Guerra do Paraguai, também conhecida como Guerra da Tríplice Aliança, foi motivada pela ambição de Solano López, presidente do Paraguai, de expandir seus territórios e garantir acesso ao mar. O conflito começou em 1864, quando o Paraguai invadiu o Mato Grosso brasileiro e capturou um navio. Em resposta, Brasil, Argentina e Uruguai formaram a Tríplice Aliança. A guerra foi marcada por batalhas intensas e duradouras, como Tuiuti, Avaí e Lomas Valentinas. O Paraguai foi devastado, perdendo até 90% da sua população masculina e grande parte de suas terras. O Brasil saiu vitorioso, mas enfrentou grandes perdas humanas e financeiras. O fim da guerra em 1870 marcou a morte de López e a reconstrução do Paraguai.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Batalha_de_Tuiuti.jpg",
+    "curiosidades": [
+      "A guerra destruiu o Paraguai, com a morte de cerca de 300 mil pessoas, o que representava uma grande parte da população.",
+      "O Brasil utilizou escravos como soldados durante a guerra, prometendo-lhes liberdade ao final do conflito.",
+      "O conflito resultou em uma dívida imensa para o Brasil, que demorou décadas para ser paga."
+    ],
+    "imagem_mapa_região": "https://upload.wikimedia.org/wikipedia/commons/9/94/Map_of_the_Paraguayan_War.jpg",
+    "link_video": "https://www.youtube.com/watch?v=_ZOoeCmcd7s",
+    "fontes": [
+      "https://www.todamateria.com.br/guerra-do-paraguai/",
+      "https://www.suapesquisa.com/historia/guerra_paraguai.htm",
+      "https://escolaeducacao.com.br/batalhas-da-guerra-do-paraguai/"
+    ],
+    "principais_batalhas": [
+      {
+        "nome": "Batalha do Riachuelo",
+        "data": "11 de junho de 1865",
+        "descrição": "Considerada uma das mais importantes batalhas navais da guerra, vencida pela Marinha do Brasil."
+      },
+      {
+        "nome": "Batalha de Tuiuti",
+        "data": "24 de maio de 1866",
+        "descrição": "A maior e mais sangrenta batalha da guerra, com vitória da Tríplice Aliança."
+      },
+      {
+        "nome": "Batalha de Avaí",
+        "data": "11 de dezembro de 1868",
+        "descrição": "Conflito decisivo onde o Brasil derrotou o exército paraguaio."
+      },
+      {
+        "nome": "Batalha de Lomas Valentinas",
+        "data": "Dezembro de 1868",
+        "descrição": "Marquês de Caxias lidera as tropas da Tríplice Aliança na vitória decisiva contra Solano López."
+      },
+      {
+        "nome": "Batalha de Cerro Corá",
+        "data": "1 de março de 1870",
+        "descrição": "Última batalha, que culminou na morte de Solano López e no fim da guerra."
+      }
+    ]
+  },
+  {
+    "nome": "Revolta da Armada",
+    "data": "1891-1894",
+    "descrição_curta": "A Revolta da Armada foi um movimento de oficiais da Marinha Brasileira que se opuseram aos governos de Deodoro da Fonseca e Floriano Peixoto, com foco em preservar os ideais da república contra a centralização de poder.",
+    "descrição_detalhada": "A Revolta da Armada foi um conflito dividido em duas fases principais. A Primeira Revolta da Armada, em 1891, foi liderada por oficiais da Marinha insatisfeitos com as medidas autoritárias de Deodoro da Fonseca, como o fechamento do Congresso Nacional. Este movimento levou à renúncia de Deodoro. A Segunda Revolta da Armada (1893-1894) ocorreu durante o governo de Floriano Peixoto, quando a Marinha exigia novas eleições, uma vez que Peixoto assumiu o poder sem respeitar a Constituição, que previa novas eleições após a renúncia de Deodoro. Os revoltosos bombardearam o Rio de Janeiro, levando a capital temporariamente a Petrópolis. O conflito foi intensificado pela tentativa de aliança entre os revoltosos da Marinha e os federalistas do sul do país. O governo de Floriano, apoiado pelo Exército e pelos Estados Unidos, conseguiu reprimir a revolta em março de 1894.",
+    "url_imagem": "https://www.todamateria.com.br/upload/con/revolta-da-armada-mapa.jpeg",
+    "curiosidades": [
+      "A cidade de Florianópolis, capital de Santa Catarina, recebeu esse nome em homenagem a Floriano Peixoto após a repressão aos revoltosos na ilha de Desterro.",
+      "A Revolta da Armada teve apoio de monarquistas e europeus, mas foi reprimida com apoio direto dos Estados Unidos.",
+      "O almirante Saldanha da Gama, um dos líderes da revolta, morreu em combate no sul do Brasil."
+    ],
+    "imagem_mapa": "https://upload.wikimedia.org/wikipedia/commons/9/95/Revolta_da_Armada.jpg",
+    "link_video": "https://www.youtube.com/watch?v=6DDmXLZAAu4",
+    "fonte": [
+      "https://www.todamateria.com.br/revolta-da-armada/",
+      "https://pt.wikipedia.org/wiki/Revolta_da_Armada",
+      "https://www.todoestudo.com.br/historia/revolta-da-armada"
+    ],
+    "principais_batalhas": [
+      "Bombardeio da cidade do Rio de Janeiro (1893)",
+      "Combate de Ponta da Armação, Niterói (1894)"
+    ]
+  },
+  {
+    "nome": "Revolução Constitucionalista de 1932",
+    "data": "9 de julho a 4 de outubro de 1932",
+    "descrição_curta": "Movimento paulista contra o governo de Getúlio Vargas, que exigia uma nova Constituição e eleições gerais.",
+    "descrição_detalhada": "A Revolução Constitucionalista de 1932 foi uma revolta liderada por São Paulo contra o governo provisório de Getúlio Vargas. Após a Revolução de 1930, Vargas centralizou o poder e nomeou interventores em todos os estados, removendo a autonomia local, especialmente em São Paulo, que perdeu influência política. Os paulistas exigiam uma nova Constituição e a eleição de governantes estaduais, o que não foi atendido. O movimento ganhou força após o assassinato de quatro estudantes, cujas iniciais - MMDC - tornaram-se o símbolo da revolução. A revolta durou 87 dias, mas terminou com a derrota militar dos paulistas, embora algumas reivindicações tenham sido atendidas posteriormente, como a convocação de uma Assembleia Constituinte em 1933 e a promulgação da Constituição de 1934. No entanto, o movimento foi marcado por uma grande perda humana, com cerca de 2.000 mortos entre civis e militares. A revolução é celebrada até hoje como um dos maiores movimentos cívicos de São Paulo, sendo o 9 de julho um feriado estadual.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Soldados_da_Revolu%C3%A7%C3%A3o_Constitucionalista.jpg",
+    "curiosidades": [
+      "O MMDC, formado pelas iniciais dos nomes dos estudantes mortos, Martins, Miragaia, Dráusio e Camargo, tornou-se o maior símbolo da revolução.",
+      "A Revolução Constitucionalista foi o maior movimento armado ocorrido em São Paulo no século XX.",
+      "Apesar da derrota militar, a pressão paulista resultou na convocação da Assembleia Constituinte em 1933, que culminou na promulgação da Constituição de 1934."
+    ],
+    "imagem_mapa_regiao": "https://upload.wikimedia.org/wikipedia/commons/3/38/Revolu%C3%A7%C3%A3o_Constitucionalista_de_1932_-_Mapa.png",
+    "link_video": "https://www.youtube.com/watch?v=ZdG2bcJrWFM",
+    "fonte": "Wikipédia, Toda Matéria, Mundo Educação, Sua Pesquisa",
+    "principais_batalhas": [
+      "Batalha do Túnel",
+      "Batalha do Paranápanema",
+      "Combate em Cruzeiro",
+      "Confrontos em Itapira"
+    ]
+  },
+  {
+    "nome": "Participação do Brasil na Segunda Guerra Mundial",
+    "data": "1939-1945",
+    "descricao_curta": "O Brasil participou ativamente da Segunda Guerra Mundial, enviando tropas para lutar ao lado dos Aliados após declarar guerra ao Eixo em 1942.",
+    "descricao_detalhada": "A participação do Brasil na Segunda Guerra Mundial começou sob o governo de Getúlio Vargas, que inicialmente manteve uma posição de neutralidade. No entanto, a situação mudou após ataques a navios mercantes brasileiros por submarinos do Eixo, levando o Brasil a declarar guerra em 21 de agosto de 1942. A partir daí, Vargas e Roosevelt firmaram uma parceria, e o Brasil enviou a Força Expedicionária Brasileira (FEB) para lutar na Itália em 1944. A FEB teve papel importante em batalhas como a conquista de Monte Castelo. Apesar de enfrentarem dificuldades e falta de treinamento, os soldados brasileiros ajudaram a pressionar as forças do Eixo e conquistaram vitórias significativas. A participação brasileira na guerra foi marcada por perdas, mas também por contribuições importantes, fortalecendo a imagem do Brasil na comunidade internacional.",
+    "url_imagem": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Brazilian_soldiers_walking_during_Second_World_War.jpg",
+    "curiosidades": [
+      "O Brasil foi o único país da América do Sul a enviar tropas para a Europa durante a Segunda Guerra Mundial.",
+      "Carmen Miranda, uma famosa cantora e atriz brasileira, tornou-se um símbolo da política de boa vizinhança entre os Estados Unidos e a América Latina durante esse período."
+    ],
+    "mapa_regiao": "https://upload.wikimedia.org/wikipedia/commons/1/16/LocationBrazil.png",
+    "link_video": "https://www.youtube.com/watch?v=4ckkhWOs1xY",
+    "fonte_informacoes": [
+      "Wikipedia - Brasil na Segunda Guerra Mundial",
+      "Escola Educação - O Brasil na Segunda Guerra Mundial",
+      "Aventuras na História - A importância da participação brasileira na Segunda Guerra"
+    ],
+    "principais_batalhas": [
+      "Batalha de Monte Castelo",
+      "Batalha de Fornovo",
+      "Batalha de Collecchio"
+    ]
+  }
 ]

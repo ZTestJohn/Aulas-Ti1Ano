@@ -1,0 +1,7 @@
+.Timeline{
+    width: 90vw;
+    height: 15px;
+    border-radius: 10px;
+    background-color: var(--light-red);
+    position: relative;
+}

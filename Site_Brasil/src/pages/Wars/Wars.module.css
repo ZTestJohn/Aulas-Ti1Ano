@@ -1,4 +1,50 @@
-.svgPergunta{
+.title {
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 2.7vw;
     max-width: 50vw;
-    max-height: 80vh;
+    height: max-content;
+    margin: auto;
+}
+.WarsSection  section{
+    position: relative;
+    min-height: calc(100vh - 98px);
+}
+.timelineSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.TimelineHelp{
+    max-width: 30vw;
+    font-size: 1.7vw;
+    text-align: center;
+    color: var(--secundary-color);
+}
+.Indicator {
+    position: absolute;
+    bottom: 0;
+}
+.Indicator svg{
+    color: var(--secundary-color);
+    transition: transform 0.5s ease;
+    animation: downIndicatorAnimation infinite 3s;
+}
+@keyframes downIndicatorAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@media (width < 840px) {
+    .title {
+        font-size: 2em;
+        max-width: 85vw;
+    }
 }

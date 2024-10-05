@@ -1,0 +1,36 @@
+@import url("../../styles/variables.module.css");
+
+.date,
+.name {
+  font-family: var(--font-serif);
+  text-align: center;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.name{
+    bottom: 40px;
+}
+.date{
+    top: 40px;
+    font-size: 2em;
+}
+.TimelinePoint {
+  position: absolute;
+  left: 0;
+  top: -7px;
+  background-color: var(--dark-red);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.TimelinePoint::after {
+  content: " ";
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: var(--light-red);
+  position: absolute;
+  transform: translateX(50%);
+  top: 25%;
+}

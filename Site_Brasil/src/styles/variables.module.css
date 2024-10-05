@@ -3,8 +3,11 @@
   --background: #f1eff7;
   --padding: 15px;
   --font: "Poppins", sans-serif;
+  --font-serif: "Noto Serif", serif;
   --primary-color: #9C9C9C;
   --secundary-color: #92E3A9;
+  --light-red: #EB6D6A;
+  --dark-red: #A83C39;
   --background-box-color: #e1e9ef;
   --background-dark1: #e1e5ec;
   --hover-selected: #d4e2d5;
