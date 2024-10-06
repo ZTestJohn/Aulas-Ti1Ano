@@ -8,16 +8,17 @@
   transform: translateX(-50%);
   left: 50%;
 }
-.name{
-    bottom: 40px;
+.name {
+  font-size: 1.2vw;
+  bottom: 40px;
 }
-.date{
-    top: 40px;
-    font-size: 2em;
+.date {
+  top: 40px;
+  font-size: 1.2vw;
+  white-space: nowrap;
 }
 .TimelinePoint {
   position: absolute;
-  left: 0;
   top: -7px;
   background-color: var(--dark-red);
   width: 30px;
@@ -33,4 +34,12 @@
   position: absolute;
   transform: translateX(50%);
   top: 25%;
+}
+.link {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  width: 0;
+  position: absolute;
+  scroll-behavior: smooth;
 }

@@ -1,50 +1,67 @@
-.title {
-    text-align: center;
-    font-family: var(--font-serif);
-    font-size: 2.7vw;
-    max-width: 50vw;
-    height: max-content;
-    margin: auto;
+body {
+    background-color: var(--background);
+    background-image: none;
 }
-.WarsSection  section{
-    position: relative;
-    min-height: calc(100vh - 98px);
+.title {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 2.7vw;
+  max-width: 50vw;
+  height: max-content;
+  margin: auto;
+}
+.WarsSection section {
+  position: relative;
+  min-height: calc(100vh - 98px);
 }
 .timelineSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-.TimelineHelp{
-    max-width: 30vw;
-    font-size: 1.7vw;
-    text-align: center;
-    color: var(--secundary-color);
+.TimelineHelp {
+  max-width: 30vw;
+  font-size: 1.7vw;
+  text-align: center;
+  color: var(--secundary-color);
 }
 .Indicator {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
-.Indicator svg{
-    color: var(--secundary-color);
-    transition: transform 0.5s ease;
-    animation: downIndicatorAnimation infinite 3s;
+.Indicator svg {
+  color: var(--secundary-color);
+  transition: transform 0.5s ease;
+  animation: downIndicatorAnimation infinite 3s;
 }
 @keyframes downIndicatorAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 @media (width < 840px) {
-    .title {
-        font-size: 2em;
-        max-width: 85vw;
-    }
+  .timelineDiv {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 365px;
+    margin: 0 500px 0 500px;
+    overflow-x: auto;
+  }
+  .title {
+    font-size: 2em;
+    max-width: 85vw;
+  }
+  .TimelineHelp {
+    max-width: 90vw;
+    font-size: 1.6em;
+    transform: translateY(-20px);
+  }
 }

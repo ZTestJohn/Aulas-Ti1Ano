@@ -1,7 +1,32 @@
-.Timeline{
-    width: 90vw;
-    height: 15px;
+.Timeline {
+  width: 90vw;
+  height: 15px;
+  border-radius: 10px;
+  background-color: var(--light-red);
+  position: relative;
+}
+
+#TimelineBar ol:first-child {
+  left: 0;
+}
+
+@media (width < 840px) {
+  .Timeline {
+    transform: scale(2) translateX(27vw);
+  }
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
     border-radius: 10px;
-    background-color: var(--light-red);
-    position: relative;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 }

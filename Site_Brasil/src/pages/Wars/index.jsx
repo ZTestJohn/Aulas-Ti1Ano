@@ -4,6 +4,7 @@ import styles from "./Wars.module.css";
 import Footer from "../../components/Footer";
 import Timeline from "../../components/Timeline";
 import TimelinePoint from "../../components/TimelinePoint";
+import db from "../../json/db.json";
 
 function Wars() {
   return (
@@ -17,12 +18,19 @@ function Wars() {
                 Linha do tempo das principais Guerras do Brasil
               </h2>
             </div>
-            <div>
+            <div className={styles.timelineDiv}>
               <Timeline>
-                <TimelinePoint
-                  date={1900}
-                  nameOfWar="Participação do Brasil na 2GM"
-                />
+                {db.map((e, index) => {
+                  return (
+                    <TimelinePoint
+                      date={e.data}
+                      nameOfWar={e.nome}
+                      position={index}
+                      quantity={db.length}
+                      key={index}
+                    />
+                  );
+                })}
               </Timeline>
             </div>
             <div>
@@ -48,7 +56,13 @@ function Wars() {
               </svg>
             </div>
           </section>
-          <section style={{ backgroundColor: "tomato" }}></section>
+          {db.map((e, index) => {
+            return (
+              <section key={e.nome} id={index}>
+                {e.nome}
+              </section>
+            );
+          })}
         </section>
       </Container>
       <Footer />
