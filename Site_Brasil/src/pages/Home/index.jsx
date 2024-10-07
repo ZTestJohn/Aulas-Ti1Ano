@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+      <big style={{ position: "absolute" }}></big>
       <Header />
       <Container className={styles.fundo}>
         <big style={{ position: "absolute" }}></big>
@@ -15,14 +16,18 @@ function Home() {
           <div className={styles.texts_content}>
             <div className={styles.texts}>
               <p>
-                Venha explorar as principais Guerras que o <span>brasil</span> teve em sua
-                história!
+                Venha explorar as principais Guerras que o <span>brasil</span>{" "}
+                teve em sua história!
               </p>
               <Link to="Wars">Saiba Mais</Link>
             </div>
           </div>
           <div>
-            <img className={styles.svgPergunta} src={svgQuestion} alt="Icone de um tanque de guerra em frente ao brasil" />
+            <img
+              className={styles.svgPergunta}
+              src={svgQuestion}
+              alt="Icone de um tanque de guerra em frente ao brasil"
+            />
           </div>
         </main>
       </Container>

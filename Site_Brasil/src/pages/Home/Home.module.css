@@ -1,4 +1,4 @@
-body{
+body:has(big){
   background-image: url("../../img/speedline.svg");
   background-size: 50%;
   animation: mover-diagonal 10s linear infinite;

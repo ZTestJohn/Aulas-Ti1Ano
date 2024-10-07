@@ -1,10 +1,10 @@
 import Header from "./../../components/Header";
 import Container from "./../../components/Container";
 import styles from "./Wars.module.css";
-import Footer from "../../components/Footer";
 import Timeline from "../../components/Timeline";
 import TimelinePoint from "../../components/TimelinePoint";
 import db from "../../json/db.json";
+import SectionWar from "../../components/SectionWar";
 
 function Wars() {
   return (
@@ -58,14 +58,19 @@ function Wars() {
           </section>
           {db.map((e, index) => {
             return (
-              <section key={e.nome} id={index}>
-                {e.nome}
-              </section>
+              <SectionWar
+                id={index}
+                key={index}
+                nameOfWar={e.nome}
+                warDescription={e.descricao_detalhada}
+                battles={e.principais_batalhas}
+                warImgUrl={e.url_imagem}
+                imgMap={e.imagem_mapa}
+              />
             );
           })}
         </section>
       </Container>
-      <Footer />
     </>
   );
 }

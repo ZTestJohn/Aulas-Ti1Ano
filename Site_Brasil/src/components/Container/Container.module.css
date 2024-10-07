@@ -3,10 +3,9 @@
 .Container{
     width: 100%;
     min-height: calc(100vh - 143px);
-    padding-top: 20px;
     color: var(--text-color);
     background-color: var(--background);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .Container:has(big){
     background-color: transparent;

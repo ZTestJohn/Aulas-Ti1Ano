@@ -1,0 +1,126 @@
+@import url(../../styles/variables.module.css);
+.SectionWar {
+  position: relative;
+}
+.contentSection {
+  height: 100%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.titleAndDescription {
+  width: 50%;
+  height: 50%;
+}
+.titleAndDescription h2 {
+  font-family: var(--font-serif);
+  font-size: 2.4vw;
+  max-width: 90%;
+  padding-bottom: 10px;
+}
+.titleAndDescription p {
+  font-size: 1vw;
+  max-width: 90%;
+  text-align: justify;
+}
+.lista li {
+  list-style: initial;
+}
+.SectionWar .imgDiv {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+.battles h2 {
+  font-size: 1.6vw;
+  padding-bottom: 10px;
+}
+.battles ul li {
+  font-size: 1.1vw;
+  padding-block: 5px;
+  font-weight: 200;
+}
+.extraDiv {
+  max-width: 50%;
+}
+.extraDiv div {
+  max-width: 33%;
+}
+.extras {
+  position: relative;
+}
+.extras svg {
+  color: var(--font-color);
+  width: 6vw;
+  height: 6vw;
+}
+.extras:after {
+  content: "+";
+  position: absolute;
+  bottom: -40%;
+  left: -5%;
+  color: var(--primary-color);
+  font-size: 6vw;
+}
+.extraDiv {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  align-items: center;
+}
+.SectionWar::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(to right, var(--background), transparent);
+}
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+/* ======================================= POPUP ======================================== */
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
