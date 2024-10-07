@@ -69,6 +69,7 @@ function SectionWar({
             </ul>
           </div>
           <div>
+            slider
           </div>
           <Popup
             trigger={
