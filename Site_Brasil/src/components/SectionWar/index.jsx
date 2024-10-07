@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import styles from "./SectionWar.module.css";
-import { useState, useEffect } from "react";
-import React from "react";
+import { React, useState, useEffect } from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import Slider from "react-slick";
 
 function SectionWar({
   warImgUrl,
@@ -13,6 +13,13 @@ function SectionWar({
   battles,
   id,
 }) {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   if (typeof battles === "string") {
     battles = [battles];
   }
@@ -61,7 +68,8 @@ function SectionWar({
               })}
             </ul>
           </div>
-          <div>slider</div>
+          <div>
+          </div>
           <Popup
             trigger={
               <button>

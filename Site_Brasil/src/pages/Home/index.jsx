@@ -16,7 +16,7 @@ function Home() {
           <div className={styles.texts_content}>
             <div className={styles.texts}>
               <p>
-                Venha explorar as principais Guerras que o <span>brasil</span>{" "}
+                Venha explorar as principais Guerras que o <span>Brasil</span>{" "}
                 teve em sua história!
               </p>
               <Link to="Wars">Saiba Mais</Link>

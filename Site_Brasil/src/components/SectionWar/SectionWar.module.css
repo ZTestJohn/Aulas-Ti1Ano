@@ -9,8 +9,8 @@
   flex-direction: column;
 }
 .titleAndDescription {
-  width: 50%;
-  height: 50%;
+  width: 55%;
+  height: 55%;
 }
 .titleAndDescription h2 {
   font-family: var(--font-serif);
@@ -30,10 +30,13 @@
   position: absolute;
   right: 0;
   top: 0;
-  width: 50%;
+  width: 45%;
   height: 100%;
   object-fit: cover;
   transition: opacity 0.5s ease-in-out;
+}
+.battles {
+  max-width: 32%;
 }
 .battles h2 {
   font-size: 1.6vw;
@@ -46,9 +49,6 @@
 }
 .extraDiv {
   max-width: 50%;
-}
-.extraDiv div {
-  max-width: 33%;
 }
 .extras {
   position: relative;
@@ -68,14 +68,14 @@
 }
 .extraDiv {
   display: flex;
-  width: 95%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+
 .SectionWar::after {
   content: " ";
   position: absolute;
-  left: 50%;
+  left: 55%;
   top: 0;
   height: 100%;
   width: 30%;
@@ -90,37 +90,3 @@
 }
 
 /* ======================================= POPUP ======================================== */
-
-.modal {
-  font-size: 12px;
-}
-.modal > .header {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 18px;
-  text-align: center;
-  padding: 5px;
-}
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
-}
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
-.modal > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid #cfcece;
-}
