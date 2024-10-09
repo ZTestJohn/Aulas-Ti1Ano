@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
 import styles from "./SectionWar.module.css";
-import { React, useState, useEffect } from "react";
-import Popup from "reactjs-popup";
+import { useState, useEffect } from "react";
 import "reactjs-popup/dist/index.css";
-import Slider from "react-slick";
 import PopupComponent from "../PopupComponent";
+import PopupItem from "../PopupItem";
 
 function SectionWar({
   warImgUrl,
@@ -13,14 +12,9 @@ function SectionWar({
   warDescription,
   battles,
   id,
+  arrayWebsites,
+  YoutubeVideo,
 }) {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   if (typeof battles === "string") {
     battles = [battles];
   }
@@ -73,10 +67,14 @@ function SectionWar({
           <PopupComponent>
             <div>
               <h2>Fontes:</h2>
-              <span></span>
+              {arrayWebsites.map((e, index) => {
+                console.log(YoutubeVideo);
+                return <PopupItem link={e} key={index} />;
+              })}
             </div>
             <div>
               <h2>Vídeo do Youtube para apoio:</h2>
+              <PopupItem link={YoutubeVideo} key={YoutubeVideo} />
             </div>
           </PopupComponent>
         </div>

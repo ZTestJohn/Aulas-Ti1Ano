@@ -16,6 +16,18 @@
   background-color: var(--background);
   height: 300px;
 }
+.ModalContent {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.ModalContent div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
 .extras {
   position: relative;
 }

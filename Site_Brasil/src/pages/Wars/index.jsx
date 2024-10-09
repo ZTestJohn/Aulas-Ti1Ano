@@ -66,6 +66,8 @@ function Wars() {
                 battles={e.principais_batalhas}
                 warImgUrl={e.url_imagem}
                 imgMap={e.imagem_mapa}
+                arrayWebsites={e.fonte}
+                YoutubeVideo={e.link_video}
               />
             );
           })}

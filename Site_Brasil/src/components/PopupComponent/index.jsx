@@ -45,7 +45,7 @@ function PopupComponent({ children }) {
               close();
             }}
           ></button>
-          <div>{children}</div>
+          <div className={styles.ModalContent}>{children}</div>
         </div>
       )}
     </Popup>

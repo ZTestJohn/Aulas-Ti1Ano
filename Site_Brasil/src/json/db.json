@@ -12,7 +12,7 @@
     ],
     "imagem_mapa": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mapa_da_Capitania_de_Pernambuco%2C_com_representa%C3%A7%C3%A3o_do_Quilombo_dos_Palmares_%281647%29.jpg",
     "link_video": "https://youtu.be/mAuGuRfSSf4?feature=shared",
-    "fontes": [
+    "fonte": [
       "https://pt.wikipedia.org/wiki/Guerra_dos_Palmares",
       "https://brasilescola.uol.com.br/historiab/quilombo-dos-palmares.htm",
       "https://www.todoestudo.com.br/historia/quilombo-dos-palmares"
@@ -55,7 +55,7 @@
     ],
     "imagem_mapa": "https://tokdehistoria.com.br/wp-content/uploads/2015/02/nederlands-brazillic3ab.jpg",
     "link_video": "https://youtu.be/t7onHgHifZQ?feature=shared",
-    "fontes": [
+    "fonte": [
       "https://www.todamateria.com.br/guerra-dos-mascates",
       "https://www.infoescola.com/historia/guerra-dos-mascates"
     ],
@@ -85,7 +85,7 @@
     ],
     "imagem_mapa": "https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2020/08/inconfidencia-mineira-o-que-foi-historia-causas-e-consequencias-1-865x1024.jpg",
     "link_video": "https://youtu.be/6UDsBW-we34?feature=shared",
-    "fontes": [
+    "fonte": [
       "https://www.todamateria.com.br/inconfidencia-mineira/"
     ],
     "principais_batalhas": "Não houve batalhas, pois o movimento foi descoberto antes de sua execução."
@@ -103,7 +103,7 @@
     ],
     "imagem_mapa": "https://atlas.fgv.br/sites/atlas.fgv.br/files/03-07-b-full.png",
     "link_video": "https://youtu.be/dE76T9jZjO8?feature=shared",
-    "fontes": [
+    "fonte": [
       "https://www.todamateria.com.br/guerra-da-cisplatina/",
       "https://pt.wikipedia.org/wiki/Guerra_da_Cisplatina",
       "https://www.suapesquisa.com/historia/guerra_cisplatina.htm"
@@ -136,7 +136,7 @@
     ],
     "imagem_mapa": "https://prati.com.br/wp-content/uploads/photo-gallery/Revolu%C3%A7%C3%A3oFarroupilha/Caminhos_1841.jpg",
     "link_video": "https://youtu.be/wrdZ6x2X-PY?feature=shared",
-    "fonte_informações": [
+    "fonte": [
       "https://www.suapesquisa.com/historia/guerra_farrapos.htm"
     ],
     "principais_batalhas": [
@@ -165,7 +165,7 @@
     ],
     "imagem_mapa": "https://journals.openedition.org/terrabrasilis/docannexe/image/1908/img-1.png",
     "link_video": "https://youtu.be/SyGoRR4hs3Y?feature=shared",
-    "fontes": [
+    "fonte": [
       "https://www.todamateria.com.br/guerra-do-paraguai/",
       "https://escolaeducacao.com.br/batalhas-da-guerra-do-paraguai/"
     ],
@@ -256,7 +256,7 @@
     ],
     "imagem_mapa": "https://atlas.fgv.br/sites/atlas.fgv.br/files/07-09-final-full.png",
     "link_video": "https://youtu.be/QP0hLZxkfLs?feature=shared",
-    "fonte_informacoes": [
+    "fonte": [
       "https://www.todamateria.com.br/o-brasil-na-segunda-guerra-mundial/",
       "https://brasilescola.uol.com.br/historiab/brasil-segunda-guerra.htm",
       "https://pt.wikipedia.org/wiki/Brasil_na_Segunda_Guerra_Mundial"

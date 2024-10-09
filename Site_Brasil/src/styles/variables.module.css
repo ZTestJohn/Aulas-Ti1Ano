@@ -1,9 +1,10 @@
 :root {
-  --text-color: rgb(54, 80, 75);
-  --background: #f1eff7;
   --padding: 15px;
   --font: "Poppins", sans-serif;
   --font-serif: "Noto Serif", serif;
+  /* ================================ Colors */
+  --text-color: rgb(54, 80, 75);
+  --background: #f1eff7;
   --primary-color: #9C9C9C;
   --secundary-color: #92E3A9;
   --light-red: #EB6D6A;
@@ -11,4 +12,5 @@
   --background-box-color: #e1e9ef;
   --background-dark1: #e1e5ec;
   --hover-selected: #d4e2d5;
+  --gray: rgb(34, 34, 36);
 }
