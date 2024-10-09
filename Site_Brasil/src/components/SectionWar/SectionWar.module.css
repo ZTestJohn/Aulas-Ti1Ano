@@ -50,22 +50,6 @@
 .extraDiv {
   max-width: 50%;
 }
-.extras {
-  position: relative;
-}
-.extras svg {
-  color: var(--font-color);
-  width: 6vw;
-  height: 6vw;
-}
-.extras:after {
-  content: "+";
-  position: absolute;
-  bottom: -40%;
-  left: -5%;
-  color: var(--primary-color);
-  font-size: 6vw;
-}
 .extraDiv {
   display: flex;
   justify-content: space-between;
@@ -88,5 +72,3 @@
 .fadeOut {
   opacity: 0;
 }
-
-/* ======================================= POPUP ======================================== */
