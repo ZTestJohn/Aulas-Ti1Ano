@@ -68,6 +68,7 @@ function Wars() {
                 imgMap={e.imagem_mapa}
                 arrayWebsites={e.fonte}
                 YoutubeVideo={e.link_video}
+                funFacts={e.curiosidades}
               />
             );
           })}

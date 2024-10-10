@@ -5,6 +5,7 @@ import "reactjs-popup/dist/index.css";
 import PopupComponent from "../PopupComponent";
 import PopupItem from "../PopupItem";
 import Carousel from "../Carousel";
+import FlipCard from "../FlipCard";
 
 function SectionWar({
   warImgUrl,
@@ -15,6 +16,7 @@ function SectionWar({
   id,
   arrayWebsites,
   YoutubeVideo,
+  funFacts,
 }) {
   if (typeof battles === "string") {
     battles = [battles];
@@ -66,8 +68,9 @@ function SectionWar({
           </div>
           <div className={styles.Slider}>
             <Carousel>
-              <div className={styles.divCarrosel}>aee</div>
-              <div className={styles.divCarrosel}>aee</div>
+                {funFacts.map((e, index) => {
+                  return <FlipCard content={e} key={index} />;
+                })}
             </Carousel>
           </div>
           <PopupComponent>
