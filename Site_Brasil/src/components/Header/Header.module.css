@@ -9,8 +9,8 @@
   gap: 30px;
   align-items: center;
   justify-content: space-between;
-  padding: 20px var(--padding);
-  background-color: var(--background);
+  padding: 20px var(--padding);   
+  background-color: var(--background);                                                                         
 }
 
 .header span {

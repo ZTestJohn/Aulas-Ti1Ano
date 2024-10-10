@@ -40,6 +40,7 @@ function SectionWar({
 
   return (
     <section id={id} className={styles.SectionWar}>
+      <span className={styles.VoltarAoTopo}><a href="#timeline">Voltar ao topo</a></span>
       <div className={styles.contentSection}>
         <div className={styles.titleAndDescription}>
           <h2>{nameOfWar}</h2>

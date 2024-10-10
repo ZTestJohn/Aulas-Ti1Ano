@@ -45,23 +45,33 @@
   transform: rotateY(0deg);
 }
 .flip_card_front_decor {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
-  border-radius: 12px;
-  position: relative;
+  font-size: 1vw;
   display: flex;
+  position: relative;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--secundary-color);
+}
+
+.flip_card_front_decor h2{
+  position: absolute;
+  color: var(--background);
+  text-shadow: rgba(0, 0, 0, 0.288) 1px 0 10px;
+}
+.flip_card_front_decor svg{
+  height: 75%;
+  width: 75%;
 }
 
 .flip_card_back {
-  padding: 20px;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
   transform: rotateY(180deg);
-}
-
-.flip_card_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 28px;
 }

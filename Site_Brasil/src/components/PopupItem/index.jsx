@@ -2,7 +2,26 @@
 import styles from "./PopupItem.module.css";
 
 function PopupItem({ link }) {
-  const displayName = link;
+  let displayName = link;
+  if (link.includes("wikipedia")) {
+    displayName = "Wikipédia";
+  } else  if (link.includes("brasilescola")) {
+    displayName = "Brasil Escola";
+  } else  if (link.includes("todoestudo")) {
+    displayName = "Todo estudo";
+  } else  if (link.includes("mundoeducacao")) {
+    displayName = "Mundo Educação";
+  } else  if (link.includes("todamateria")) {
+    displayName = "Toda Matéria";
+  } else  if (link.includes("infoescola")) {
+    displayName = "Info Escola";
+  } else  if (link.includes("suapesquisa")) {
+    displayName = "Sua pesquisa";
+  } else  if (link.includes("escolaeducacao")) {
+    displayName = "Escola Educação";
+  } else  if (link.includes("youtu")) {
+    displayName = "Youtube";
+  }
   return (
     <span className={styles.PopupItem}>
       <svg

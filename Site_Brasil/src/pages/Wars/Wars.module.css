@@ -9,7 +9,7 @@
 .WarsSection {
   scroll-snap-type: y mandatory; 
   overflow-y: scroll;
-  height: calc(100vh - 78px);
+  height: calc(100vh - 84px);
 }
 .WarsSection::-webkit-scrollbar {
   height: 10px;
@@ -30,7 +30,7 @@
   padding-block: 20px;
   scroll-snap-align: start; 
   position: relative;
-  height: calc(100vh - 78px);
+  height: calc(100vh - 79px);
 }
 .timelineSection {
   display: flex;

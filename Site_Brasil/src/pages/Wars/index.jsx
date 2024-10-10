@@ -12,7 +12,7 @@ function Wars() {
       <Header />
       <Container>
         <section className={styles.WarsSection}>
-          <section className={styles.timelineSection}>
+          <section id="timeline" className={styles.timelineSection}>
             <div>
               <h2 className={styles.title}>
                 Linha do tempo das principais Guerras do Brasil

@@ -14,7 +14,8 @@
 .modal {
   position: relative;
   background-color: var(--background);
-  height: 300px;
+  height: max-content;
+  transform: scale(1.05);
 }
 .ModalContent {
   padding: 20px;
