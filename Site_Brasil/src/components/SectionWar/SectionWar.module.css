@@ -72,3 +72,10 @@
 .fadeOut {
   opacity: 0;
 }
+.divCarrosel {
+  height: 100px;
+  max-width: 50px;
+  background-color: tomato;
+}
+.slider {
+}

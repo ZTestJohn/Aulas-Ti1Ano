@@ -1,0 +1,5 @@
+@import url(../../styles/variables.module.css);
+
+.DivSlider {
+    max-width: 20vw;
+}

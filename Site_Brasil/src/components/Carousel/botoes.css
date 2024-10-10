@@ -1,0 +1,6 @@
+@import url(../../styles/variables.module.css);
+
+.slick-prev:before, .slick-next:before {
+    color: var(--text-color);
+}
+

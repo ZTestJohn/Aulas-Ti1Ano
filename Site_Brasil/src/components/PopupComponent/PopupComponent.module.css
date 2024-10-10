@@ -45,3 +45,12 @@
   font-size: 4.5vw;
   cursor: pointer;
 }
+
+@media (width < 840px) {
+  .ModalContent {
+    flex-direction: column;
+  }
+  .ModalContent div {
+    width: 100%;
+  }
+}

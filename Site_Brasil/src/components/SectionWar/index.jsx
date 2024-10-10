@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import "reactjs-popup/dist/index.css";
 import PopupComponent from "../PopupComponent";
 import PopupItem from "../PopupItem";
+import Carousel from "../Carousel";
 
 function SectionWar({
   warImgUrl,
@@ -63,7 +64,12 @@ function SectionWar({
               })}
             </ul>
           </div>
-          <div>slider</div>
+          <div className={styles.Slider}>
+            <Carousel>
+              <div className={styles.divCarrosel}>aee</div>
+              <div className={styles.divCarrosel}>aee</div>
+            </Carousel>
+          </div>
           <PopupComponent>
             <div>
               <h2>Fontes:</h2>
