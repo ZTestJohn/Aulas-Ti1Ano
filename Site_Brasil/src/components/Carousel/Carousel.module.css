@@ -1,5 +1,7 @@
 @import url(../../styles/variables.module.css);
 
 .DivSlider {
+    position: relative;
+    top: -5px;
     max-width: 15vw;
 }
