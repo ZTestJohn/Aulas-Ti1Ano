@@ -30,7 +30,7 @@
   padding-block: 20px;
   scroll-snap-align: start; 
   position: relative;
-  height: calc(100vh - 79px);
+  min-height: calc(100vh - 79px);
 }
 .timelineSection {
   display: flex;
