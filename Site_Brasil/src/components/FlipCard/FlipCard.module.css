@@ -57,10 +57,11 @@
   background-color: var(--secundary-color);
 }
 
-.flip_card_front_decor svg:nth-child(2) text{
-  fill: var(--background);
-  font-size: 4vw;
-  text-align: center;
+.flip_card_front_decor h2 {
+  font-size: 1.35vw;
+  position: absolute;
+  color: var(--background);
+  text-shadow: rgba(0, 0, 0, 0.288) 1px 0 10px;
 }
 
 .flip_card_front_decor svg:nth-child(1){

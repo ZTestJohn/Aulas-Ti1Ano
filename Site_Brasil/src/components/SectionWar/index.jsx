@@ -40,7 +40,9 @@ function SectionWar({
 
   return (
     <section id={id} className={styles.SectionWar}>
-      <span className={styles.VoltarAoTopo}><a href="#timeline">Voltar ao topo</a></span>
+      <span className={styles.VoltarAoTopo}>
+        <a href="#timeline">Voltar ao topo</a>
+      </span>
       <div className={styles.contentSection}>
         <div className={styles.titleAndDescription}>
           <h2>{nameOfWar}</h2>
@@ -69,16 +71,15 @@ function SectionWar({
           </div>
           <div className={styles.Slider}>
             <Carousel>
-                {funFacts.map((e, index) => {
-                  return <FlipCard content={e} key={index} />;
-                })}
+              {funFacts.map((e, index) => {
+                return <FlipCard content={e} key={index} />;
+              })}
             </Carousel>
           </div>
           <PopupComponent>
             <div>
               <h2>Fontes:</h2>
               {arrayWebsites.map((e, index) => {
-                console.log(YoutubeVideo);
                 return <PopupItem link={e} key={index} />;
               })}
             </div>

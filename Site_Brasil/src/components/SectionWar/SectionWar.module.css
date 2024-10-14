@@ -85,4 +85,31 @@
   border-radius: 5px;
 }
 
+@media (width < 840px){
+  /* .SectionWar {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .contentSection {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .titleAndDescription {
+    padding: 0 20px;
+    width: 100%;
+  }
+  .SectionWar .imgDiv {
+    position: block;
+    height: 300px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .VoltarAoTopo {
+    position: block;
+  }
+  .extraDiv {
+    display: none;
+  } */
+}
 

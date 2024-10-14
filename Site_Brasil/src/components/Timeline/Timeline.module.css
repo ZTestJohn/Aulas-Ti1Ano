@@ -1,4 +1,7 @@
 .Timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 90vw;
   height: 15px;
   border-radius: 10px;
@@ -6,13 +9,21 @@
   position: relative;
 }
 
-#TimelineBar ol:first-child {
-  left: 0;
+.Timeline ol {
+  width: calc(100% - 15px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (width < 840px) {
   .Timeline {
+    width: 90vw;
     transform: scale(2) translateX(27vw);
+    height: 5px;
+  }
+  .Timeline ol {
+    width: calc(100% - 7px);
   }
   ::-webkit-scrollbar {
     height: 10px;
@@ -24,9 +35,9 @@
   }
   ::-webkit-scrollbar-thumb {
     background-color: #888;
-    border-radius: 10px; 
+    border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
 }

@@ -28,18 +28,7 @@ function FlipCard({ content }) {
                   <path d="M10 10a1.5 1.5 0 1 0 -1.14 -2.474" />
                 </svg>
 
-                <svg viewBox="0 0 500 500">
-                  <path
-                    id="curve"
-                    d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97"
-                    fill="none"
-                  />
-                  <text width="500" >
-                    <textPath xlinkHref="#curve">
-                      Curiosidades
-                    </textPath>
-                  </text>
-                </svg>
+                <h2>CURIOSIDADES</h2>
               </div>
             </div>
             <div className={styles.flip_card_back}>{content}</div>

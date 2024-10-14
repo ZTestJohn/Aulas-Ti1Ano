@@ -18,8 +18,7 @@
   white-space: nowrap;
 }
 .TimelinePoint {
-  position: absolute;
-  top: -7px;
+  position: relative;
   background-color: var(--dark-red);
   width: 30px;
   height: 30px;
@@ -38,8 +37,27 @@
 .link {
   padding: 0;
   margin: 0;
-  left: 0;
   width: 0;
-  position: absolute;
-  scroll-behavior: smooth;
+}
+
+@media (width < 840px) {
+  .name,
+  .date {
+    font-size: 1.5vw;
+  }
+  .TimelinePoint {
+    width: 15px;
+    height: 15px;
+  }
+  .TimelinePoint::after {
+    width: 7.25px;
+    height: 7.25px;
+  }
+  .date {
+    top: 20px;
+    text-wrap: wrap;
+  }
+  .name {
+    bottom: 20px;
+  }
 }

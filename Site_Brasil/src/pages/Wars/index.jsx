@@ -26,7 +26,6 @@ function Wars() {
                       date={e.data}
                       nameOfWar={e.nome}
                       position={index}
-                      quantity={db.length}
                       key={index}
                     />
                   );
