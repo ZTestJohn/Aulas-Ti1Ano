@@ -1,0 +1,62 @@
+@import url(../../styles/variables.module.css);
+
+.header {
+  z-index: 997;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px var(--padding);   
+  background-color: var(--background);                                                                         
+}
+
+.header span {
+  font-weight: 600;
+  font-size: 1.4em;
+  background-image: linear-gradient(
+    var(--primary-color),
+    var(--secundary-color)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header nav a {
+  margin-left: 15px;
+  font-size: 1em;
+  color: var(--text-color);
+}
+.MenuAndLogo div {
+  margin-left: 10px;
+}
+.header div,
+button {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.header svg {
+  width: 35px;
+  height: 35px;
+  transition: all 0.5s ease-out;
+  padding: 5px;
+  border-radius: 100%;
+  color: var(--text-color);
+}
+.header svg:hover {
+  cursor: pointer;
+  background-color: var(--hover-selected);
+}
+
+a {
+  position: relative;
+  padding: 5px;
+}
+
+@media (width < 640px) {
+  .linksNav {
+    display: none;
+  }
+}

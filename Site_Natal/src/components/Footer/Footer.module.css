@@ -1,0 +1,13 @@
+@import url(../../styles/variables.module.css);
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: var(--background);
+}
+.footer p{
+    color: var(--text-color);
+}
