@@ -16,7 +16,7 @@
 .header span {
   font-weight: 600;
   font-size: 1.4em;
-  background-image: linear-gradient(
+  background-image: radial-gradient(
     var(--primary-color),
     var(--secundary-color)
   );

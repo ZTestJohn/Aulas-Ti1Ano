@@ -34,7 +34,7 @@ function Header() {
           </button>
           <div>
             <img
-              src="../../public/brasil.png"
+              src="/natal.png"
               alt="Logo"
               width="38px"
             />
