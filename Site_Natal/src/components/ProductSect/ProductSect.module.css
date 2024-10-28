@@ -72,16 +72,18 @@
     justify-content: center;
 }
 .OffPrice {
-    text-decoration: dashed;
+    text-decoration: line-through;
     font-size: 20px;
 }
 .Price {
     font-size: 90px;
+    line-height: 90px;
 }
-.Cart {
+.Cart form {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 .AddToCart {
     font-size: 1.4em;
@@ -90,16 +92,21 @@
     background-color: var(--primary-color);
     border-radius: 12px;
     padding: 15px 10px;
+    position: relative;
 }
 .CartQuantity {
     background-color: var(--primary-color);
+    color: var(--secundary-color);
+    text-align: center;
     font-size: 2em;
-    width: 50px;
+    width: 70px;
+    border-radius: 5px;
 }
 
 @media (width <= 1320px) {
     .Price {
         font-size: 50px;
+        line-height: 50px;
     }
 }
 

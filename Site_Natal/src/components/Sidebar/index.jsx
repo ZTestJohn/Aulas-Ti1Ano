@@ -32,7 +32,7 @@ function Sidebar({ active, setActive }) {
       </div>
       <nav>
         <SidebarItem link="" textLink="Home" />
-        <SidebarItem link="Wars" textLink="Guerras" />
+        <SidebarItem link="Shop" textLink="Loja" />
       </nav>
     </div>
   );

@@ -2,12 +2,21 @@ import styles from "./ProductSect.module.css";
 import { Link, useParams } from "react-router-dom";
 import db from "../../json/produtosDB.json";
 import SliderImgs from "../SliderImgs";
+import { useState } from "react";
 
 function ProductSect() {
   const params = useParams();
   const product = db.find((e) => e.codigo_unico === params.id);
   let price = Number(product.preco);
   let priceBefore = price + price * 0.3;
+
+  let [Quantity, setQuantity] = useState(1);
+  if (Quantity > 15) {
+    setQuantity(1);
+  }
+  function QuantityControl(event) {
+    setQuantity(event.target.value);
+  }
 
   return (
     <section className={styles.ProductSect}>
@@ -47,7 +56,12 @@ function ProductSect() {
               <span className={styles.OffPrice}>
                 R$ {priceBefore.toFixed(2)}
               </span>
-              <h3 className={styles.Price}>R$ {price.toFixed(2)}</h3>
+              <h3 className={styles.Price}>
+                {Intl.NumberFormat("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                }).format(price.toFixed(2))}
+              </h3>
               <h4>
                 Ou até 6x de R$ {((price + price * 0.15) / 6).toFixed(2)},
                 totalizando R$ {(price + price * 0.15).toFixed(2)} reais.
@@ -67,6 +81,8 @@ function ProductSect() {
                 className={styles.CartQuantity}
                 type="number"
                 name="quantity"
+                onChange={QuantityControl}
+                value={Quantity}
               />
             </form>
           </div>
