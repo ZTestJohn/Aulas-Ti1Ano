@@ -5,5 +5,5 @@
     min-height: calc(100vh - 150px);
     color: var(--text-color);
     background-color: var(--background);
-    overflow: hidden;
+    overflow-x: hidden;
 }

@@ -6,10 +6,11 @@ function SliderComponent({ children }) {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
+    speed: 1000,
     pauseOnHover: true,
     cssEase: "linear"
   };

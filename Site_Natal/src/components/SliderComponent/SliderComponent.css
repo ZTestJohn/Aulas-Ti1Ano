@@ -1,14 +1,15 @@
 @import url(../../styles/variables.module.css);
 
 .slick-prev::before, .slick-next::before{
-    color: var(--primary-color);
+  opacity: 0;
 }
-.SliderConfig {
-  /* display: flex;
+
+/* .SliderConfig {
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   margin: 30px;
-}
+} */
 
 .slider-container {
   width: 100%;

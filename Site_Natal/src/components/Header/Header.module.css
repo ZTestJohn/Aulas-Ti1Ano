@@ -10,7 +10,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px var(--padding);   
-  background-color: var(--background);                                                                         
+  background-color: var(--background);        
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);                                                                 
 }
 
 .header span {
@@ -55,7 +56,23 @@ a {
   padding: 5px;
 }
 
+.SearchArea {
+  border: 0.5px solid var(--primary-color);
+  border-radius: 20px;
+}
+.SearchArea svg {
+  color: var(--primary-color);
+}
+.SearchArea input {
+  padding: 5px;
+  margin-left: 11px;
+}
+
 @media (width < 640px) {
+  .header {
+    flex-direction: column;
+    gap: 5px;
+  }
   .linksNav {
     display: none;
   }

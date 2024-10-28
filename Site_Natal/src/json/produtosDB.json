@@ -1,0 +1,322 @@
+[
+    {
+        "nome": "Velas Perfumadas 3-Pavios - Winter",
+        "preco": "25.50",
+        "categoria": "Decoração de Natal",
+        "descricao": "Candle com fragrância de inverno que preenche o ambiente com aroma de eucalipto e pinho.",
+        "codigo_unico": "BBW001",
+        "url_imagem": "https://images.tcdn.com.br/img/img_prod/553261/vela_perfumada_3_pavios_winter_spices_274g_proaloe_5633_1_dee99373653e52d21b03419523a90048.jpg"
+    },
+    {
+        "nome": "Boneco de Neve Inflável",
+        "preco": "49.99",
+        "categoria": "Decoração de Natal Externa",
+        "descricao": "Boneco de neve inflável de 1,80m com luzes integradas, ideal para decorar a frente de casa.",
+        "codigo_unico": "TGT002",
+        "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVq5xH8JnD2oUZ2IEHRUzswTL3Ar-gm5uig&s"
+    },
+    {
+        "nome": "Pijama Natalino - Família",
+        "preco": "18.00",
+        "categoria": "Roupas de Natal",
+        "descricao": "Pijama de Natal vermelho e verde para toda a família, disponível em vários tamanhos.",
+        "codigo_unico": "TGT003",
+        "url_imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lnugycsqg4zr3c"
+    },
+    {
+        "nome": "Escultura LED - Papai Noel",
+        "preco": "34.99",
+        "categoria": "Decoração de Natal Interna",
+        "descricao": "Escultura iluminada de Papai Noel para mesas ou estantes, feita de metal e com luzes LED.",
+        "codigo_unico": "SCY004",
+        "url_imagem": "https://cdn.awsli.com.br/300x300/94/94653/produto/177093610be213ae308.jpg"
+    },
+    {
+        "nome": "Manta de Natal - Flocos de Neve",
+        "preco": "29.99",
+        "categoria": "Roupas de Casa",
+        "descricao": "Manta macia com estampas de flocos de neve, perfeita para se aquecer neste Natal.",
+        "codigo_unico": "TGT005",
+        "url_imagem": "https://m.media-amazon.com/images/I/71qEouM8cVL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nome": "Velas Aromáticas Scentsy - Frosted Pine",
+        "preco": "30.00",
+        "categoria": "Aromatizantes de Natal",
+        "descricao": "Velas aromáticas com toque de pinho fresco e uma pitada de hortelã.",
+        "codigo_unico": "SCY006",
+        "url_imagem": "https://www.thecandleboutique.co.uk/wp-content/uploads/2023/11/Frosted-White-Pine-Scentsy-Bar.jpg"
+    },
+    {
+        "nome": "Árvore de Natal Artificial 1,8m",
+        "preco": "79.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Árvore de Natal de 1,8 metros com folhagem verde exuberante.",
+        "codigo_unico": "TGT007",
+        "url_imagem": "https://cdn.awsli.com.br/951/951689/produto/42067597/fb8fc759a0.jpg"
+    },
+    {
+        "nome": "Bola de Natal Personalizada - Nome",
+        "preco": "9.99",
+        "categoria": "Decoração de Árvore",
+        "descricao": "Bola de Natal personalizada com o nome de sua escolha.",
+        "codigo_unico": "TGT008",
+        "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_MJye1sVMiizHxroWYB5DqnFVdtbTYxYWA&s"
+    },
+    {
+        "nome": "Calendário Advento - Bombons de Chocolate",
+        "preco": "12.50",
+        "categoria": "Presentes",
+        "descricao": "Calendário do Advento com chocolates deliciosos, uma surpresa para cada dia até o Natal.",
+        "codigo_unico": "BBW009",
+        "url_imagem": "https://chocolatrasonline.com.br/wp-content/uploads/2014/12/Lindt-calendario-do-advento.png"
+    },
+    {
+        "nome": "Luzes de Natal LED - Coloridas",
+        "preco": "14.99",
+        "categoria": "Decoração de Natal Externa",
+        "descricao": "Luzes LED coloridas para enfeitar o ambiente externo e interno.",
+        "codigo_unico": "TGT010",
+        "url_imagem": "https://images.tcdn.com.br/img/img_prod/573228/pisca_pisca_de_natal_ip44_fixo_de_10m_100_leds_coloridos_fio_verde_de_1_8_mm_202677_1_02264cf98682d6771ade2b94dd8707fb.jpeg"
+    },
+    {
+        "nome": "Difusor Scentsy - Natal em Casa",
+        "preco": "45.00",
+        "categoria": "Aromatizantes de Natal",
+        "descricao": "Difusor de aromas com fragrância de canela e maçã para criar o clima natalino.",
+        "codigo_unico": "SCY011",
+        "url_imagem": "https://70730.cdn.simplo7.net/static/70730/sku/natal-lembrancinha-de-natal-aromatizador-difusor-vidro-30ml-organza-2023-p-1698073659214.jpg"
+    },
+    {
+        "nome": "Mini Árvore de Natal com Luzes",
+        "preco": "24.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Pequena árvore de Natal iluminada, ideal para ambientes compactos.",
+        "codigo_unico": "TGT012",
+        "url_imagem": "https://images-americanas.b2w.io/produtos/7399367145/imagens/arvore-natal-mini-artificial-com-luz-led-e-cones-de-pinheiro/7399367145_1_large.jpg"
+    },
+    {
+        "nome": "Bola de Vidro Natalina",
+        "preco": "7.99",
+        "categoria": "Decoração de Árvore",
+        "descricao": "Bola de vidro com flocos de neve desenhados à mão.",
+        "codigo_unico": "TGT013",
+        "url_imagem": "https://cdn.awsli.com.br/600x700/1347/1347295/produto/237130802/44931001-4w3qe28le1.jpg"
+    },
+    {
+        "nome": "Guirlanda de Pinheiro com Luzes",
+        "preco": "35.00",
+        "categoria": "Decoração de Natal Externa",
+        "descricao": "Guirlanda de pinheiro natural com luzes LED integradas.",
+        "codigo_unico": "TGT014",
+        "url_imagem": "https://m.media-amazon.com/images/I/91xx6kZlGkL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nome": "Caneca de Natal - Papai Noel",
+        "preco": "10.00",
+        "categoria": "Utensílios de Natal",
+        "descricao": "Caneca temática de Papai Noel, perfeita para café ou chocolate quente.",
+        "codigo_unico": "BBW015",
+        "url_imagem": "https://img.elo7.com.br/product/zoom/4D22FA9/caneca-de-natal-papai-noel-tema-natal-caneca-de-ceramica-1-caneca.jpg"
+    },
+    {
+        "nome": "Capa de Almofada - Ho Ho Ho",
+        "preco": "12.99",
+        "categoria": "Roupas de Casa",
+        "descricao": "Capa de almofada com estampa 'Ho Ho Ho', ideal para o sofá da sala.",
+        "codigo_unico": "TGT016",
+        "url_imagem": "https://1279028l.ha.azioncdn.net/img/2022/09/produto/65330/nat6100-c.jpg?ims=810x810"
+    },
+    {
+        "nome": "Sacos para Presentes - Conjunto de 5",
+        "preco": "6.00",
+        "categoria": "Presentes",
+        "descricao": "Conjunto de sacos para presentes com estampas natalinas.",
+        "codigo_unico": "TGT017",
+        "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_674126-MLB78140931965_082024-O.webp"
+    },
+    {
+        "nome": "Perfume de Ambiente Scentsy - Peppermint",
+        "preco": "25.00",
+        "categoria": "Aromatizantes de Natal",
+        "descricao": "Spray de ambiente com fragrância refrescante de hortelã-pimenta.",
+        "codigo_unico": "SCY018",
+        "url_imagem": "https://imagelive.scentsy.com/cmsimages/products/scentroomsprayperfectpeppermintisor1fw24pws.png"
+    },
+    {
+        "nome": "Meias Natalinas - Flocos de Neve",
+        "preco": "8.99",
+        "categoria": "Roupas de Natal",
+        "descricao": "Meias de inverno com flocos de neve, confortáveis e quentinhas.",
+        "codigo_unico": "TGT019",
+        "url_imagem": "https://m.media-amazon.com/images/I/817ALvReAoL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nome": "Adorno de Porta - Papai Noel",
+        "preco": "19.99",
+        "categoria": "Decoração de Natal Externa",
+        "descricao": "Adorno de porta em forma de Papai Noel para receber os convidados.",
+        "codigo_unico": "TGT020",
+        "url_imagem": "https://img.elo7.com.br/product/685x685/4630D10/enfeite-papai-noel-para-decoracao-de-porta-enfeite-porta-papai-noel.jpg"
+    },
+    {
+        "nome": "Porta-Retrato Natalino",
+        "preco": "15.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Porta-retrato temático com borda iluminada para fotos de Natal.",
+        "codigo_unico": "TGT021",
+        "url_imagem": "https://acdn.mitiendanube.com/stores/001/348/739/products/5f3ec76f-c888-4c20-8e7b-22a283543638-f75554f3cfa27e0f1516354293505300-640-0.jpeg"
+    },
+    {
+        "nome": "Velas 3-Pavios - Fresh Balsam",
+        "preco": "26.50",
+        "categoria": "Aromatizantes",
+        "descricao": "Aroma doce de baunilha com toque de bálsamo para criar um ambiente aconchegante.",
+        "codigo_unico": "BBW022",
+        "url_imagem": "https://m.media-amazon.com/images/I/711ZlViDUOL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "nome": "Estátua de Rena - Metálica",
+        "preco": "39.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Estátua de rena metálica dourada para decorações internas.",
+        "codigo_unico": "TGT023",
+        "url_imagem": "https://palazzohomedecor.com/cdn/shop/files/Hc0b3e4a280a749c7befabea4109e64d5d_2048x.webp?v=1699042629"
+    },
+    {
+        "nome": "Guirlanda com Pinhas e Berries",
+        "preco": "30.00",
+        "categoria": "Decoração de Natal",
+        "descricao": "Guirlanda decorativa com pinhas naturais e frutas vermelhas artificiais.",
+        "codigo_unico": "SCY024",
+        "url_imagem": "https://cdn.awsli.com.br/600x450/675/675386/produto/2260486077c05587aee.jpg"
+    },
+    {
+        "nome": "Sinos de Natal para Porta",
+        "preco": "9.99",
+        "categoria": "Decoração de Natal Externa",
+        "descricao": "Sinos de Natal para pendurar na porta, proporcionando som festivo.",
+        "codigo_unico": "TGT025",
+        "url_imagem": "https://http2.mlstatic.com/D_NQ_NP_885933-MLU78475788085_082024-O.webp"
+    },
+    {
+        "nome": "Boneca de Neve em Cerâmica",
+        "preco": "16.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Boneco de neve de cerâmica pintado à mão, ideal para mesas ou prateleiras.",
+        "codigo_unico": "TGT026",
+        "url_imagem": "https://cdn.awsli.com.br/600x450/94/94653/produto/237786567d1654e7427.jpg"
+    },
+    {
+        "nome": "Pilha de Presentes Decorativos",
+        "preco": "34.50",
+        "categoria": "Decoração de Natal Interna",
+        "descricao": "Decoração natalina com caixas de presentes em pilha e iluminação LED.",
+        "codigo_unico": "TGT027",
+        "url_imagem": "https://png.pngtree.com/png-vector/20240205/ourlarge/pngtree-pile-of-five-gifts-png-image_11623237.png"
+    },
+    {
+        "nome": "Saco de Presentes - Papai Noel",
+        "preco": "6.00",
+        "categoria": "Embalagens",
+        "descricao": "Saco decorativo para presentes com imagem de Papai Noel.",
+        "codigo_unico": "TGT028",
+        "url_imagem": "https://img.elo7.com.br/product/zoom/3C7E515/saco-vermelho-em-cetim-papai-noel-69x90-presentes.jpg"
+    },
+    {
+        "nome": "Difusor de Natal - Winter Woods",
+        "preco": "45.00",
+        "categoria": "Aromatizantes",
+        "descricao": "Difusor com fragrância de madeira e pinho para um ambiente natalino.",
+        "codigo_unico": "SCY029",
+        "url_imagem": "https://static.zarahome.net/assets/public/2738/74b3/38834f678191/8bef481f1d2d/45474703776-p1/45474703776-p1.jpg?ts=1725275153379&f=auto&w=1082"
+    },
+    {
+        "nome": "Toalha de Mesa Natalina",
+        "preco": "22.50",
+        "categoria": "Decoração de Mesa",
+        "descricao": "Toalha de mesa com estampas festivas em vermelho e verde.",
+        "codigo_unico": "TGT030",
+        "url_imagem": "https://images.tcdn.com.br/img/img_prod/452310/toalha_de_mesa_quadrada_avulsa_bordada_natalina_boneco_de_neve_vermelho_1_50m_x_1_50m_para_04_lugare_73921_1_72bb5268c52beff39fe050b1d57f3155.jpg"
+    },
+    {
+        "nome": "Guirlanda LED - Pinha e Canela",
+        "preco": "29.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Guirlanda decorativa com luzes LED, pinhas e paus de canela.",
+        "codigo_unico": "TGT031",
+        "url_imagem": "https://dcdn.mitiendanube.com/stores/002/400/052/products/11e74093-be06-483e-a860-17200947e7b11-4fb98c69916affb91116670009959980-1024-1024.jpeg"
+    },
+    {
+        "nome": "Kit de Meias de Natal para Família",
+        "preco": "28.99",
+        "categoria": "Roupas",
+        "descricao": "Kit de meias natalinas para toda a família, em temas variados.",
+        "codigo_unico": "TGT032",
+        "url_imagem": "https://m.media-amazon.com/images/I/711w1EUjK+L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nome": "Copo com Canudo - Flocos de Neve",
+        "preco": "8.00",
+        "categoria": "Utensílios de Natal",
+        "descricao": "Copo reutilizável com canudo, estampado com flocos de neve.",
+        "codigo_unico": "BBW033",
+        "url_imagem": "https://m.media-amazon.com/images/I/71ywmxGzJeL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+        "nome": "Trilho de Mesa Natalino",
+        "preco": "14.99",
+        "categoria": "Decoração de Mesa",
+        "descricao": "Trilho de mesa vermelho com estampa de estrelas douradas.",
+        "codigo_unico": "TGT034",
+        "url_imagem": "https://1319028l.ha.azioncdn.net/img/2023/09/produto/24455/trilho827.jpg?ims=fit-in/500x500/filters:fill(white)"
+    },
+    {
+        "nome": "Spray de Ambiente - Pomander Celebrações",
+        "preco": "20.00",
+        "categoria": "Aromatizantes",
+        "descricao": "Spray com fragrância balsâmica para criar o clima natalino.",
+        "codigo_unico": "SCY035",
+        "url_imagem": "https://cdn.awsli.com.br/2/2987/produto/240454348/efewgsgszgd-bufm1bwd3o.png"
+    },
+    {
+        "nome": "Boneco de Gelo Decorativo",
+        "preco": "29.99",
+        "categoria": "Decoração de Natal",
+        "descricao": "Estátua de boneco de gelo feito de vidro, com luzes internas.",
+        "codigo_unico": "TGT036",
+        "url_imagem": "https://m.media-amazon.com/images/I/81N2-GX5gCL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nome": "Bola Decorativa de Natal - Renas",
+        "preco": "5.99",
+        "categoria": "Decoração de Árvore",
+        "descricao": "Bola decorativa com estampas de renas, perfeita para árvores de Natal.",
+        "codigo_unico": "TGT037",
+        "url_imagem": "https://img.elo7.com.br/product/main/33C4499/bola-de-natal-rena-em-biscuit-produto-artesanal.jpg"
+    },
+    {
+        "nome": "Perfume de Ambiente - Capim, Limão, Canela e Romã",
+        "preco": "30.00",
+        "categoria": "Aromatizantes",
+        "descricao": "Perfume com fragrância de especiarias para criar um clima festivo.",
+        "codigo_unico": "SCY038",
+        "url_imagem": "https://www.catran.com.br/catran/fotos/Difusor-de-ambiente-canela-roma-250ml--1715096705__OV81285386659.jpg"
+    },
+    {
+        "nome": "Tapete de Entrada Natalino",
+        "preco": "14.99",
+        "categoria": "Decoração de Natal Externa",
+        "descricao": "Tapete de entrada com estampa 'Feliz Natal' em verde e vermelho.",
+        "codigo_unico": "TGT039",
+        "url_imagem": "https://down-br.img.susercontent.com/file/61170163c617bbbc7bc7136b7c65f73c"
+    },
+    {
+        "nome": "Caneca de Cerâmica - Papai Noel",
+        "preco": "9.50",
+        "categoria": "Utensílios de Natal",
+        "descricao": "Caneca decorativa de cerâmica com formato de Papai Noel.",
+        "codigo_unico": "BBW040",
+        "url_imagem": "https://cdn.leroymerlin.com.br/products/caneca_de_natal_papai_noel_feliz_natal_ceramica_350ml_1570759833_eb65_600x600.jpg"
+    }
+]

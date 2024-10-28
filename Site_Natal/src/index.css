@@ -1,3 +1,4 @@
+@import url(./styles/variables.module.css);
 :root {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -8,9 +9,10 @@
   margin: 0;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 a{
+  -webkit-tap-highlight-color: transparent;
   text-decoration: none;
   color: inherit;
 }
@@ -20,6 +22,15 @@ button {
   border: none;
   background-color: transparent;
 }
+input {
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+}
 ul, li, ol {
   list-style-type: none;
+}
+svg {
+  color: var(--prymary-color);
 }

@@ -1,3 +1,10 @@
-.ImgBannnerDiv {
+@import url(../../styles/variables.module.css);
 
+.banner{
+    width: calc(100vw - 15px);
+}
+.divBanner{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }

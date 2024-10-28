@@ -1,0 +1,111 @@
+@import url("../../styles/variables.module.css");
+.ProductSect{
+    width: 80vw;
+    background-color: rgba(255, 99, 71, 0.11);
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.ProductSect nav, .ProductSect nav ol, .ProductSect nav ol li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.Links a {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    font-size: 1.2em;
+    gap: 5px;
+    text-decoration: underline;
+}
+.Links p {
+    position: relative;
+    bottom: -2px;
+}
+.Links {
+    gap: 5px;
+}
+/* Shop Area ==========> */
+
+.productSect {
+    display: flex;
+}
+.ShopAreaAndInformations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+}
+.NameOfProduct {
+    font-weight: 800;
+    font-size: 2.3vw;
+    margin-top: 20px;
+    text-align: justify;
+}
+.UniqueCode, .OffPrice {
+    color: var(--off);
+    font-weight: 200;
+    font-style: italic;
+}
+.description {
+    font-size: 1.3vw;
+    text-align: justify;
+}
+.Line {
+    align-self: center;
+    border-bottom: 2px dashed var(--off);
+    width: 80%;
+}
+.PriceArea {
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
+.PricesBeforeAndAfter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.OffPrice {
+    text-decoration: dashed;
+    font-size: 20px;
+}
+.Price {
+    font-size: 90px;
+}
+.Cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.AddToCart {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--secundary-color);
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    padding: 15px 10px;
+}
+.CartQuantity {
+    background-color: var(--primary-color);
+    font-size: 2em;
+    width: 50px;
+}
+
+@media (width <= 1320px) {
+    .Price {
+        font-size: 50px;
+    }
+}
+
+/* Celulares e tablets em pé ====> */
+@media (width <= 860px) {
+    .productSect {
+        flex-direction: column;
+    }
+}
