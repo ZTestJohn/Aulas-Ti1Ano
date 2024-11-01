@@ -11,18 +11,13 @@ function ProductSect() {
   let priceBefore = price + price * 0.3;
 
   let [Quantity, setQuantity] = useState(1);
-  function sumQuantity(){
-    setQuantity(Quantity+=1)
-    controlCount()
+  function sumQuantity(event) {
+    event.preventDefault();
+    setQuantity((prevQuantity) => Math.min(prevQuantity + 1, 15));
   }
-  function subQuantity(){
-    setQuantity(Quantity-=1)
-    controlCount()
-  }
-  function controlCount(){
-    if (Quantity > 15 || Quantity <= 0) {
-      setQuantity(1);
-    }
+  function subQuantity(event) {
+    event.preventDefault();
+    setQuantity((prevQuantity) => Math.max(prevQuantity - 1, 1));
   }
 
   return (
@@ -85,9 +80,9 @@ function ProductSect() {
                 Adiconar ao carrinho
               </button>
               <div className={styles.QuantityButtons}>
-                <button onClick={subQuantity}>+</button>
+                <button onClick={subQuantity}>–</button>
                 <h2>{Quantity}</h2>
-                <button onClick={subQuantity}>-</button>
+                <button onClick={sumQuantity}>+</button>
               </div>
             </form>
           </div>
