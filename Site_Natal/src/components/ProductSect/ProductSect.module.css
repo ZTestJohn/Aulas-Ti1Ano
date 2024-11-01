@@ -102,6 +102,20 @@
     width: 70px;
     border-radius: 5px;
 }
+.QuantityButtons h1, .QuantityButtons button  {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--secundary-color);
+}
+.QuantityButtons {
+    display: flex;
+    width: 90px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    padding: 15px 10px;
+}
 
 @media (width <= 1320px) {
     .Price {
