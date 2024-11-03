@@ -19,7 +19,7 @@ function ProductSect() {
     event.preventDefault();
     setQuantity((prevQuantity) => Math.max(prevQuantity - 1, 1));
   }
-
+  
   return (
     <section className={styles.ProductSect}>
       <nav>
@@ -31,7 +31,6 @@ function ProductSect() {
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                fill="currentColor"
                 className="icon icon-tabler icons-tabler-filled icon-tabler-home"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -40,12 +39,12 @@ function ProductSect() {
               Home
             </Link>
             <p>/</p>
-            <Link to={`/Shop/${product.categoria}`}>{product.categoria}</Link>
+            <Link to={`/Shop`}>Categorias</Link>
           </li>
         </ol>
       </nav>
       <div className={styles.productSect}>
-        <SliderImgs product_url_image={product.url_imagem} />
+        <SliderImgs product_url_image={product.url_imagem} product={product} />
         <div className={styles.ShopAreaAndInformations}>
           <div>
             <h2 className={styles.NameOfProduct}>{product.nome}</h2>

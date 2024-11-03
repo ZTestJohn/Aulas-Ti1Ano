@@ -1,14 +1,31 @@
+import styles from "./Shop.module.css";
 import Header from "./../../components/Header";
 import Container from "./../../components/Container";
 import Footer from "./../../components/Footer";
-import styles from "./Shop.module.css";
+import FilterProducts from "../../components/FilterProducts";
+import SearchArea from "../../components/SearchArea";
+import { useFilteredProductsContext } from "../../contexts/FilteredProducts";
 
 function Shop() {
+  const { filteredProducts } = useFilteredProductsContext();
   return (
     <>
       <Header />
-      <Container className={styles.Shop}>
-        <h1>Hello</h1>
+      <Container>
+        <section className={styles.ShopContainer}>
+          <section className={styles.ShopSections}>
+            <div className={styles.filterPart}>
+              <FilterProducts />
+            </div>
+            <div className={styles.searchPart}>
+              <SearchArea
+                title=" "
+                productsDB={filteredProducts}
+                initialText=""
+              />
+            </div>
+          </section>
+        </section>
       </Container>
       <Footer />
     </>

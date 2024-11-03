@@ -1,0 +1,18 @@
+.ShopSections{
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+}
+.ShopContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filterPart {
+    width: 30%;
+    /* background-color: tomato; */
+}
+.searchPart {
+    width: 70%;
+}
+

@@ -1,16 +1,22 @@
 /* eslint-disable react/prop-types */
 import styles from "./SliderImgs.module.css";
+import { useFavoriteContext } from "../../contexts/Favorite";
 
-function SliderImgs({ product_url_image }) {
+function SliderImgs({ product_url_image, product }) {
+  
+  const { favorite, addFavorite } = useFavoriteContext()
+  const isFavorite = favorite.some(fav => fav.codigo_unico === product.codigo_unico);
+
   return (
     <section className={styles.SliderImgs}>
       <img src={product_url_image} alt="Imagem referente ao produto" />
       <svg
+        onClick={() => addFavorite(product)}
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
         viewBox="0 0 24 24"
-        fill="none"
+        fill={isFavorite ? "tomato" : "none"}
         stroke="currentColor"
         strokeWidth="2"
         strokeLinecap="round"

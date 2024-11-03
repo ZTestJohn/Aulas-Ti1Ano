@@ -5,9 +5,9 @@ import styles from "./SearchPage.module.css";
 import SliderComponent from "../../components/SliderComponent";
 import BannerJson from "./../../json/banner_imgs.json";
 import BannerImg from "../../components/BannerImg";
-import Category from "../../components/Category";
+import SearchArea from "../../components/SearchArea";
 import products from "../../json/produtosDB.json";
-import Card from "../../components/Card";
+import { useParams } from "react-router-dom";
 
 function SearchPage() {
   
@@ -19,10 +19,15 @@ function SearchPage() {
       <Container className={styles.fundo}>
         <SliderComponent>
           {BannerJson.map((e) => {
-            return <BannerImg key={e} ImgPath={e.url} />;
-          })}
+            return(
+              <BannerImg key={e} ImgPath={e.url} />
+            );
+          })
+          }
         </SliderComponent>
-        
+        <section className={styles.searchConteiner}>
+          <SearchArea productsDB={products} initialText={params.text}/>
+        </section>
       </Container>
       <Footer />
     </>

@@ -1,0 +1,50 @@
+@import url(../../styles/variables.module.css);
+
+.SearchArea {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+.SearchArea h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.search {
+  justify-content: space-evenly;
+}
+.searchbox, .search{
+  display: flex;
+  align-items: center;
+}
+.searchbox svg {
+  color: var(--primary-color);
+  margin: 10px;
+}
+.searchbox input {
+  margin-left: 5px;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: var(--primary-color);
+  background-color: var(--background-box-color);
+}
+.SearchArea input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+.SearchArea input[type="search"]::placeholder {
+  color: var(--off);
+}
+
+@media (width < 800px) {
+  h2 {
+    font-size: 18px;
+  }
+  .search{
+    height: max-content;
+    flex-direction: column-reverse;
+  }
+} 

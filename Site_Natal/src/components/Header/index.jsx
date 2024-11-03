@@ -5,9 +5,15 @@ import Sidebar from "../Sidebar";
 
 function Header() {
   const [sidebar, setSidebar] = useState(false);
-  const [SearchBarContent, setSearchBarContent] = useState("")
+  const [SearchBarContent, setSearchBarContent] = useState("Árvore de Natal")
+
   function getSearchAreaContent(event){
-    setSearchBarContent(event.target.value)
+    let textInput = event.target.value
+    textInput = textInput.trim()
+    setSearchBarContent(textInput)
+    if (textInput === ""){
+      setSearchBarContent("Árvore de Natal")
+    }
   }
   function menuFunction() {
     setSidebar(!sidebar);
