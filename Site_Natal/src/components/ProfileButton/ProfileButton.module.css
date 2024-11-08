@@ -1,7 +1,32 @@
 @import url("../../styles/variables.module.css");
 
-.buttonProfile svg{
-    color: var(--primary-color);
-    height: 50px;
-    width:  50px;
+.MenuDiv aside {
+  position: absolute;
+  transition: right ease-out 0.5s;
+  top: 0;
+  width: 300px;
+  background-color: var(--background);
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  top: 90px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MenuDiv .OpenedMenu {
+  right: 0;
+}
+.MenuDiv .ClosedMenu {
+  right: -300px;
+}
+.buttonProfile svg {
+  color: var(--primary-color);
+  height: 50px;
+  width: 50px;
+}
+@media (width < 640px) {
+  .MenuDiv aside {
+    top: 180px;
+  }
 }
