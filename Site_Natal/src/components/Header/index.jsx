@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
 import { useState } from "react";
+import styles from "./Header.module.css";
 import Sidebar from "../Sidebar";
+import ProfileButton from "../ProfileButton";
 
 function Header() {
   const [sidebar, setSidebar] = useState(false);
@@ -78,6 +79,7 @@ function Header() {
         <nav className={styles.linksNav}>
           <Link to="/">Página inicial</Link>
           <Link to="/Shop">Loja</Link>
+          <ProfileButton />
         </nav>
       </header>
     </>

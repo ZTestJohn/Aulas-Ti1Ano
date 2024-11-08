@@ -1,0 +1,7 @@
+@import url("../../styles/variables.module.css");
+
+.buttonProfile svg{
+    color: var(--primary-color);
+    height: 50px;
+    width:  50px;
+}

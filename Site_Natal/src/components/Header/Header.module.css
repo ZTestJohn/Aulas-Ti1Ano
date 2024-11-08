@@ -74,13 +74,15 @@ a {
   padding: 5px;
   margin-left: 11px;
 }
+.linksNav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
 @media (width < 640px) {
   .header {
     flex-direction: column;
     gap: 5px;
-  }
-  .linksNav {
-    display: none;
   }
 }
