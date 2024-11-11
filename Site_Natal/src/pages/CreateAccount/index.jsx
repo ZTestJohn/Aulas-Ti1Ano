@@ -41,15 +41,15 @@ function CreateAccount() {
       setErrorMessage("As senhas não se coincidem.");
       return false;
     }
-    if (password === name){
+    if (password === name) {
       setErrorMessage("A senha não pode ser igual ao nome.");
-      return false
+      return false;
     }
-    if (password.lenght < 8){
+    if (password.lenght < 8) {
       setErrorMessage("A senha deve ter no mínimo 8 caracteres.");
-      return false
+      return false;
     }
-    window.alert(password.lenght)
+    window.alert(password.lenght);
     setErrorMessage("");
     return true;
   }
@@ -69,61 +69,63 @@ function CreateAccount() {
       <Container>
         <section className={styles.CreateAccount}>
           <div className={styles.CreateAccountBox}>
-            <div className={styles.AllTextDiv}>
-              <h2>Criar conta</h2>
-              <span className={styles.AlertError}>{errorMessage}</span>
-              <form onSubmit={submitButton} className={styles.formCreate}>
-                <div className={styles.inputsAndLabels}>
-                  <div>
-                    <label htmlFor="first_name">Nome:</label>
-                    <input
-                      type="text"
-                      name="first_name"
-                      id="first_name"
-                      required={true}
-                      onChange={changeValueName}
-                      value={name}
-                    />
+            <div className={styles.DivFirstHalf}>
+              <div className={styles.AllTextDiv}>
+                <h2>Criar conta</h2>
+                <span className={styles.AlertError}>{errorMessage}</span>
+                <form onSubmit={submitButton} className={styles.formCreate}>
+                  <div className={styles.inputsAndLabels}>
+                    <div>
+                      <label htmlFor="first_name">Nome:</label>
+                      <input
+                        type="text"
+                        name="first_name"
+                        id="first_name"
+                        required={true}
+                        onChange={changeValueName}
+                        value={name}
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="email">Email:</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        required={true}
+                        onChange={changeValueEmail}
+                        value={email}
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="password">Senha:</label>
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        required={true}
+                        onChange={changeValuePassword}
+                        value={password}
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="password_repeat">Repita a senha:</label>
+                      <input
+                        type="password"
+                        name="password_repeat"
+                        id="password_repeat"
+                        required={true}
+                        onChange={changeValuePasswordRepeat}
+                        value={passwordRepeat}
+                      />
+                      <button type="submit">Criar conta</button>
+                      <span>
+                        Já tem uma conta? <Link to="/Login">Entrar</Link>
+                      </span>
+                    </div>
                   </div>
-                  <div>
-                    <label htmlFor="email">Email:</label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      required={true}
-                      onChange={changeValueEmail}
-                      value={email}
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="password">Senha:</label>
-                    <input
-                      type="password"
-                      name="password"
-                      id="password"
-                      required={true}
-                      onChange={changeValuePassword}
-                      value={password}
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="password_repeat">Repita a senha:</label>
-                    <input
-                      type="password"
-                      name="password_repeat"
-                      id="password_repeat"
-                      required={true}
-                      onChange={changeValuePasswordRepeat}
-                      value={passwordRepeat}
-                    />
-                    <button type="submit">Criar conta</button>
-                    <span>
-                      Já tem uma conta? <Link to="/Login">Entrar</Link>
-                    </span>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
             <div className={styles.svgDiv}>
               <img src={gifAccount} alt="icone" />

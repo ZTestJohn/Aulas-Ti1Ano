@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "Site_Brasil",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - Site_Brasil",
+      "detail": "vite build"
+    }
+  ]
+}

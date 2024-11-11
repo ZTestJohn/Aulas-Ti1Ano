@@ -10,6 +10,7 @@ function ifElse({ se, seResult, senaoResult }) {
   }
   return senaoResult();
 }
+
 // =======================================
 
 // const input = Number(window.prompt("Digite o número: "))
